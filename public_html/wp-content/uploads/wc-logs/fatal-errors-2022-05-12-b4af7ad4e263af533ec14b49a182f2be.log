@@ -1,0 +1,186 @@
+2022-05-12T02:28:50+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/Tax.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T02:28:50+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/Tax.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T02:30:55+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/litespeed-cache/thirdparty/amp.cls.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/litespeed-cache/autoload.php on line 35
+
+2022-05-12T02:31:04+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/Stock/Controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T02:31:04+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/Downloads/Controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T02:31:04+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/Stock/Stats/Controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T02:36:22+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/src/Admin/API/ProductReviews.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T02:39:16+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Premium\Helpers\Zapier_Helper' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php:1035
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(985): Yoast\WP\SEO\Premium\Generated\Cached_Container->getZapierHelper2Service()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Premium\Generated\Cached_Container->getZapierEnabledConditional2Service()
+#2 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(230): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get('Yoast\\WP\\SEO\\Pr...')
+#3 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\Pr...')
+#4 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307) in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php on line 1035
+
+2022-05-12T02:43:39+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/includes/integrations/maxmind-geolocation/class-wc-integration-maxmind-database-service.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/includes/integrations/maxmind-geolocation/class-wc-integration-maxmind-geolocation.php on line 11
+
+2022-05-12T02:43:48+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Telemetry/class-wc-rest-telemetry-controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T02:44:35+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Routes\Alert_Dismissal_Route' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php:228
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(212): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\Ro...')
+#1 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_routes(Object(WP_REST_Server))
+#2 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mrwyunkahosting/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home/mrwyunkahosting/public_html/wp-includes/rest-api.php(553): do_action('rest_api_init', Object(WP_REST_Server))
+#5 /home/mrwyunkahosting/public_html/wp-includes/rest-api.php(379): rest_get_server()
+#6 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#7 /home/mrwyunkahosting/public_html/wp-includes/cl in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php on line 228
+
+2022-05-12T02:45:43+00:00 CRITICAL Uncaught Error: Class 'Themify_Builder_Builder_Page' not found in /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-builder/classes/class-themify-builder.php:469
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-builder/classes/class-themify-builder.php(63): Themify_Builder::includes_always()
+#1 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): Themify_Builder->init('')
+#2 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mrwyunkahosting/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home/mrwyunkahosting/public_html/wp-settings.php(587): do_action('init')
+#5 /home/mrwyunkahosting/public_html/wp-config.php(1324): require_once('/home/mrwyunkah...')
+#6 /home/mrwyunkahosting/public_html/wp-load.php(50): require_once('/home/mrwyunkah...')
+#7 /home/mrwyunkahosting/public_html/wp-blog-header.php(13): require_once('/home/mrwyunka in /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-builder/classes/class-themify-builder.php on line 469
+
+2022-05-12T02:45:43+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/theme-options.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-includes/template.php on line 770
+
+2022-05-12T02:45:49+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/src/Admin/API/DataCountries.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T02:52:17+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Actions\Importing\Aioseo\Aioseo_Posts_Importing_Action' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php:962
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php(4636): Yoast\WP\SEO\Generated\Cached_Container->getAioseoPostsImportingActionService()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php(4286): Yoast\WP\SEO\Generated\Cached_Container->getImportableDetectorServiceService()
+#2 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getImportingRouteService()
+#3 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(216): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get('Yoast\\WP\\SEO\\Ro...')
+#4 /home/mrwyunkahosting/public_html/wp-includes/c in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php on line 962
+
+2022-05-12T06:51:05+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/class-themify-get-image-size.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-config.php on line 118
+
+2022-05-12T06:51:05+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/class-themify-get-image-size.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-config.php on line 118
+
+2022-05-12T06:52:12+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/MiniCart.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T06:52:12+00:00 CRITICAL Uncaught Error: Class 'WPSEO_Local_Search' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wpseo-local/local-seo.php:140
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): wpseo_local_seo_init('')
+#1 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/mrwyunkahosting/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/mrwyunkahosting/public_html/wp-settings.php(587): do_action('init')
+#4 /home/mrwyunkahosting/public_html/wp-config.php(1324): require_once('/home/mrwyunkah...')
+#5 /home/mrwyunkahosting/public_html/wp-load.php(50): require_once('/home/mrwyunkah...')
+#6 /home/mrwyunkahosting/public_html/wp-blog-header.php(13): require_once('/home/mrwyunkah...')
+#7 /home/mrwyunkahosting/public_html/index.php(17): require('/home/mrwyunkah...')
+#8 {main}
+  thrown in /home/mrwyunkahosting/public_html/wp-content/plugins/wpseo-local/local-seo.php on line 140
+
+2022-05-12T06:52:12+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductSaleBadge.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T06:52:20+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-report-top-sellers-v2-controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T06:52:20+00:00 CRITICAL Uncaught Error: Class 'YoastSEO_Vendor\League\OAuth2\Client\OptionProvider\PostAuthOptionProvider' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Provider/AbstractProvider.php:118
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Provider/GenericProvider.php(83): YoastSEO_Vendor\League\OAuth2\Client\Provider\AbstractProvider->__construct(Array, Array)
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/config/semrush-client.php(46): YoastSEO_Vendor\League\OAuth2\Client\Provider\GenericProvider->__construct(Array, Array)
+#2 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php(2220): Yoast\WP\SEO\Config\SEMrush_Client->__construct(Object(Yoast\WP\SEO\Helpers\Options_Helper), Object(Yoast\WP\SEO\Wrappers\WP_Remote_Handler))
+#3 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generat in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Provider/AbstractProvider.php on line 118
+
+2022-05-12T06:52:20+00:00 CRITICAL Uncaught Error: Class 'YoastSEO_Vendor\League\OAuth2\Client\Tool\RequestFactory' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Provider/AbstractProvider.php:109
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Provider/GenericProvider.php(83): YoastSEO_Vendor\League\OAuth2\Client\Provider\AbstractProvider->__construct(Array, Array)
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/config/semrush-client.php(46): YoastSEO_Vendor\League\OAuth2\Client\Provider\GenericProvider->__construct(Array, Array)
+#2 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php(2220): Yoast\WP\SEO\Config\SEMrush_Client->__construct(Object(Yoast\WP\SEO\Helpers\Options_Helper), Object(Yoast\WP\SEO\Wrappers\WP_Remote_Handler))
+#3 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php(1 in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/league/oauth2-client/src/Provider/AbstractProvider.php on line 109
+
+2022-05-12T08:09:57+00:00 CRITICAL Uncaught Error: Class 'WPSEO_Taxonomy_Sitemap_Provider' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps.php:124
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): WPSEO_Sitemaps->init_sitemaps_providers('')
+#1 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/mrwyunkahosting/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/mrwyunkahosting/public_html/wp-settings.php(565): do_action('after_setup_the...')
+#4 /home/mrwyunkahosting/public_html/wp-config.php(1324): require_once('/home/mrwyunkah...')
+#5 /home/mrwyunkahosting/public_html/wp-load.php(50): require_once('/home/mrwyunkah...')
+#6 /home/mrwyunkahosting/public_html/wp-blog-header.php(13): require_once('/home/mrwyunkah...')
+#7 /home/mrwyunkahosting/public_html/index.php(17): require('/home/mrwyunkah...')
+#8 {main}
+  thrown in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps.php on line 124
+
+2022-05-12T09:03:34+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/src/Admin/API/ProductCategories.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T09:03:34+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-product-categories-v2-controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T09:26:02+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/google-listings-and-ads/src/API/Site/Controllers/MerchantCenter/TargetAudienceController.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T09:26:02+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/google-listings-and-ads/src/API/Site/Controllers/MerchantCenter/TargetAudienceController.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T09:26:23+00:00 CRITICAL Uncaught Error: Class 'MailPoet\Cron\Workers\InactiveSubscribers' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Cron/Triggers/WordPress.php:208
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Cron/Triggers/WordPress.php(87): MailPoet\Cron\Triggers\WordPress->checkExecutionRequirements()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Cron/CronTrigger.php(42): MailPoet\Cron\Triggers\WordPress->run()
+#2 /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Config/Initializer.php(356): MailPoet\Cron\CronTrigger->init()
+#3 /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Config/Initializer.php(275): MailPoet\Config\Initializer->setupCronTrigger()
+#4 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): MailPoet\Config\Initializer->initialize('')
+#5 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /home/mrwyunkahosting/publi in /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Cron/Triggers/WordPress.php on line 208
+
+2022-05-12T09:43:09+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskTraits.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T09:43:12+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/HandpickedProducts.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T09:43:18+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-jitm/src/class-rest-api-endpoints.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T09:45:51+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Integrations\Admin\Health_Check_Integration' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php:228
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\In...')
+#1 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_integrations('')
+#2 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mrwyunkahosting/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home/mrwyunkahosting/public_html/wp-settings.php(587): do_action('init')
+#5 /home/mrwyunkahosting/public_html/wp-config.php(1324): require_once('/home/mrwyunkah...')
+#6 /home/mrwyunkahosting/public_html/wp-load.php(50): require_once('/home/mrwyunkah...')
+#7 /home/mrwyunkahosting/public_html/wp-blog-header.php(13): require_once('/home/mrwyunkah...')
+# in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php on line 228
+
+2022-05-12T09:45:51+00:00 CRITICAL Uncaught Error: Class 'YoastSEO_Vendor\GuzzleHttp\Client' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/config/semrush-client.php:46
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php(2220): Yoast\WP\SEO\Config\SEMrush_Client->__construct(Object(Yoast\WP\SEO\Helpers\Options_Helper), Object(Yoast\WP\SEO\Wrappers\WP_Remote_Handler))
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php(1198): Yoast\WP\SEO\Generated\Cached_Container->getSEMrushClientService()
+#2 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php(4316): Yoast\WP\SEO\Generated\Cached_Container->getSEMrushLoginActionService()
+#3 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getSEMrushRouteService()
+#4 /home/mrwyunkahosting/public_html/wp-con in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/config/semrush-client.php on line 46
+
+2022-05-12T09:46:15+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-widgets.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-includes/template.php on line 770
+
+2022-05-12T09:46:15+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/google-fonts/functions.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-config.php on line 184
+
+2022-05-12T09:46:29+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-webhook-deliveries-v2-controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T09:46:29+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-webhook-deliveries-v2-controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-12T15:01:40+00:00 CRITICAL Uncaught Error: Class 'WC_Cache_Helper' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/includes/wc-attribute-functions.php:50
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/includes/class-wc-post-types.php(212): wc_get_attribute_taxonomies()
+#1 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): WC_Post_Types::register_taxonomies('')
+#2 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mrwyunkahosting/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home/mrwyunkahosting/public_html/wp-settings.php(587): do_action('init')
+#5 /home/mrwyunkahosting/public_html/wp-config.php(1324): require_once('/home/mrwyunkah...')
+#6 /home/mrwyunkahosting/public_html/wp-load.php(50): require_once('/home/mrwyunkah...')
+#7 /home/mrwyunkahosting/public_html/wp-admin/admin-ajax.php(22): require_once('/home/mrwyunkah...')
+#8 {main}
+  thrown in /home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/includes/wc-attribute-functions.php on line 50
+
+2022-05-12T15:08:03+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Conditionals\News_Conditional' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php:1640
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getNewsConditionalService()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(230): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get('Yoast\\WP\\SEO\\Co...')
+#2 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\In...')
+#3 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_integrations('')
+#4 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /home/mrwyunkahosting/public_html/wp-includes/plugin.php in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php on line 1640
+
+2022-05-12T15:08:03+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-shipping-methods-v2-controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+

@@ -1,0 +1,11 @@
+2022-04-25T16:56:56+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Premium\Integrations\Admin\Plugin_Links_Integration' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php:228
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\Pr...')
+#1 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_integrations('')
+#2 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mrwyunkahosting/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home/mrwyunkahosting/public_html/wp-settings.php(587): do_action('init')
+#5 /home/mrwyunkahosting/public_html/wp-config.php(1324): require_once('/home/mrwyunkah...')
+#6 /home/mrwyunkahosting/public_html/wp-load.php(50): require_once('/home/mrwyunkah...')
+#7 /home/mrwyunkahosting/public_html/wp-admin/admin-ajax.php(22): require_once('/home/mrw in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php on line 228
+

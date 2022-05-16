@@ -1,0 +1,17 @@
+body.tb_hide_title .page-header,
+body.tb_hide_title .breadcrumb{
+	position:absolute;
+	clip:rect(1px, 1px, 1px, 1px);
+	left:-999em
+}
+body.tb_fullwidth .site-body-container .main-section,
+body.tb_fullwidth .site-body-container{
+	max-width:none;
+    width:auto;
+    margin:0;
+	padding:0;
+	float:none
+}
+body.tb_fullwidth .site-body{
+	padding:0
+}

@@ -1,0 +1,61 @@
+2022-05-13T07:21:34+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Actions\Importing\Aioseo\Aioseo_Posts_Importing_Action' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php:962
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php(4636): Yoast\WP\SEO\Generated\Cached_Container->getAioseoPostsImportingActionService()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php(4286): Yoast\WP\SEO\Generated\Cached_Container->getImportableDetectorServiceService()
+#2 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getImportingRouteService()
+#3 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(216): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get('Yoast\\WP\\SEO\\Ro...')
+#4 /home/mrwyunkahosting/public_html/wp-includes/c in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php on line 962
+
+2022-05-13T09:57:20+00:00 CRITICAL Uncaught Error: Class 'MailPoet\Util\ConflictResolver' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Config/Initializer.php:361
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Config/Initializer.php(276): MailPoet\Config\Initializer->setupConflictResolver()
+#1 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): MailPoet\Config\Initializer->initialize('')
+#2 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mrwyunkahosting/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home/mrwyunkahosting/public_html/wp-settings.php(587): do_action('init')
+#5 /home/mrwyunkahosting/public_html/wp-config.php(1324): require_once('/home/mrwyunkah...')
+#6 /home/mrwyunkahosting/public_html/wp-load.php(50): require_once('/home/mrwyunkah...')
+#7 /home/mrwyunkahosting/public_html/wp-blog-header.php(13): require_once('/home/mrwyunkah...')
+#8 /home/mrwyunkahosting/p in /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Config/Initializer.php on line 361
+
+2022-05-13T09:57:20+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Premium\Integrations\Blocks\Estimated_Reading_Time_Block' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php:228
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\Pr...')
+#1 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_integrations('')
+#2 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mrwyunkahosting/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home/mrwyunkahosting/public_html/wp-settings.php(587): do_action('init')
+#5 /home/mrwyunkahosting/public_html/wp-config.php(1324): require_once('/home/mrwyunkah...')
+#6 /home/mrwyunkahosting/public_html/wp-load.php(50): require_once('/home/mrwyunkah...')
+#7 /home/mrwyunkahosting/public_html/wp-blog-header.php(13): require_once('/home/mrw in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php on line 228
+
+2022-05-13T10:04:51+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-product-attributes-controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-13T10:05:13+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-admin/includes/class-wp-site-health.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-settings.php on line 569
+
+2022-05-13T10:05:13+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-metabox/includes/themify-metabox-core.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-metabox/themify-metabox.php on line 31
+
+2022-05-13T10:06:34+00:00 CRITICAL Uncaught Error: Class 'Themify_Enqueue_Assets' not found in /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/theme-functions.php:16
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-includes/template.php(770): require_once()
+#1 /home/mrwyunkahosting/public_html/wp-includes/template.php(716): load_template('/home/mrwyunkah...', true, Array)
+#2 /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/functions.php(23): locate_template('theme-functions...', true)
+#3 /home/mrwyunkahosting/public_html/wp-settings.php(555): include('/home/mrwyunkah...')
+#4 /home/mrwyunkahosting/public_html/wp-config.php(1324): require_once('/home/mrwyunkah...')
+#5 /home/mrwyunkahosting/public_html/wp-load.php(50): require_once('/home/mrwyunkah...')
+#6 /home/mrwyunkahosting/public_html/wp-cron.php(44): require_once('/home/mrwyunkah...')
+#7 {main}
+  thrown in /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/theme-functions.php on line 16
+
+2022-05-13T16:08:53+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-database.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-includes/template.php on line 770
+
+2022-05-13T16:08:53+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\Local\PostType\PostType' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wpseo-local/classes/deprecated/class-post-type.php:13
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/leadin/vendor/composer/ClassLoader.php(571): include()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/leadin/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/mrwyunkah...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('PostType')
+#3 /home/mrwyunkahosting/public_html/wp-content/plugins/wpseo-local/widgets/widget-location-open-closed.php(24): spl_autoload_call('PostType')
+#4 /home/mrwyunkahosting/public_html/wp-includes/class-wp-widget-factory.php(61): WPSEO_Show_Open_Closed->__construct()
+#5 /home/mrwyunkahosting/public_html/wp-includes/widgets.php(115): WP_Widget_Factory->register('WPSEO_Show_Open...')
+#6 /home/mrwyunkahosting/public_html/wp-content/plugins/wpseo-local/local-seo.php(202): register_widget('WPSEO_Sh in /home/mrwyunkahosting/public_html/wp-content/plugins/wpseo-local/classes/deprecated/class-post-type.php on line 13
+

@@ -1,0 +1,2 @@
+2022-05-10T01:05:21+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-includes/block-patterns/query-small-posts.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-includes/block-patterns.php on line 34
+

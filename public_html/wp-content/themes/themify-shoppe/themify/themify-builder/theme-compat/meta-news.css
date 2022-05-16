@@ -1,0 +1,21 @@
+body.tb_hide_title .widget-area,
+body.tb_hide_title .entry-header{
+	position:absolute;
+	clip:rect(1px, 1px, 1px, 1px);
+	left:-999em
+}
+body.tb_fullwidth #content .container,
+body.tb_fullwidth .site-content-row .content-area{
+	max-width:none;
+    width:auto;
+    margin:0;
+	padding:0;
+	float:none;
+	flex:1
+}
+body.tb_fullwidth .site-content{
+	padding:0
+}
+body.tb_fullwidth .site-content .container > .row{
+	margin:0
+}

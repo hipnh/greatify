@@ -1,0 +1,8 @@
+2022-05-07T03:30:04+00:00 CRITICAL Uncaught Error: Class 'WC_Payment_Gateways' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php:890
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(163): WooCommerce->payment_gateways()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Schemas/V1/CheckoutSchema.php(115): WooCommerce->__get('payment_gateway...')
+#2 /home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Schemas/V1/AbstractSchema.php(62): Automattic\WooCommerce\StoreApi\Schemas\V1\CheckoutSchema->get_properties()
+#3 /home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Routes/V1/AbstractRoute.php(85): Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema->get_item_schema()
+#4 /home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blo in /home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 890
+

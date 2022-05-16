@@ -1,0 +1,1512 @@
+# Translation of Plugins - Autoptimize - Stable (latest release) in Vietnamese
+# This file is distributed under the same license as the Plugins - Autoptimize - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-01-18 16:51:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - Autoptimize - Stable (latest release)\n"
+
+#: classes/autoptimizeConfig.php:391
+msgid "example: //cdn.yoursite.com/"
+msgstr "ví dụ: //cdn.yoursite.com/"
+
+#: classes/critcss-inc/admin_settings_key.php:22
+msgid "API Key provided by a filter, no need to enter anything here."
+msgstr "Khóa API được cung cấp bởi một bộ lọc, không cần nhập bất kỳ thứ gì ở đây."
+
+#: classes/critcss-inc/admin_settings_key.php:20
+msgid "You're using Autoptimize Pro, so you don't need to provide an API Key."
+msgstr "Bạn đang sử dụng Autoptimize Pro, vì vậy bạn không cần cung cấp Khóa API."
+
+#: classes/autoptimizeToolbar.php:112
+msgid "Clear CSS/ JS Cache"
+msgstr "Xóa CSS / JS Cache"
+
+#: classes/autoptimizeToolbar.php:93
+msgid "CSS/ JS Cache Info"
+msgstr "Thông tin bộ nhớ đệm CSS / JS"
+
+#: classes/autoptimizeConfig.php:676 classes/autoptimizeToolbar.php:82
+msgid "Autoptimize Pro"
+msgstr "Autoptimize Pro"
+
+#: classes/autoptimizeConfig.php:519
+msgid "Autoptimize news"
+msgstr "Tự động hóa tin tức"
+
+#: classes/autoptimizeConfig.php:392
+msgid "Enter your CDN root URL to enable CDN for Autoptimized files. The URL can be http, https or protocol-relative. This is not needed for Cloudflare."
+msgstr "Nhập URL gốc CDN của bạn để bật CDN cho các tệp tự động hóa. URL có thể là http, https hoặc protocol-relative. Điều này là không cần thiết cho Cloudflare."
+
+#: classes/autoptimizeConfig.php:387
+msgid "The CDN has automatically been set to make use of the image optimization CDN."
+msgstr "CDN đã tự động được đặt để sử dụng CDN tối ưu hóa hình ảnh."
+
+#: classes/autoptimizeConfig.php:198
+#: classes/autoptimizeCriticalCSSSettings.php:114
+#: classes/autoptimizeExtra.php:490 classes/autoptimizeImages.php:1096
+#: classes/autoptimizePartners.php:141
+msgid "Autoptimize Pro Settings"
+msgstr "Cài đặt Autoptimize Pro"
+
+#: classes/critcss-inc/admin_settings_rules.php:164
+msgid "How To Use Autoptimize CriticalCSS Rules"
+msgstr "Cách sử dụng Tự động tối ưu hóa Quy tắc CSS quan trọng"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:414
+msgid "For path based rules, paste your specific and minified critical CSS. If you want to create a rule to exclude from critical CSS injection, enter \\\"none\\\""
+msgstr "Đối với các quy tắc dựa trên đường dẫn, hãy dán CSS quan trọng cụ thể và được rút gọn của bạn. Nếu bạn muốn tạo quy tắc để loại trừ khỏi phần chèn CSS quan trọng, hãy nhập \\ \"none \\\""
+
+#. Translators: before the 1st word a number + a space will be displayed, as in
+#. e.g. "2 of above rules".
+#: classes/critcss-inc/admin_settings_rules.js.php:91
+msgid "of the above rules got flagged by criticalcss.com as to be reviewed. This is often due to font-related issues which can be safely ignored, but you can log in to your account at https://criticalcss.com and compare screenshots for rules by clicking the red exclamation mark to confirm if all is OK."
+msgstr "trong số các quy tắc trên đã được Cricss.com gắn cờ là cần được xem xét. Điều này thường do các vấn đề liên quan đến phông chữ có thể được bỏ qua một cách an toàn, nhưng bạn có thể đăng nhập vào tài khoản của mình tại https://criticalcss.com và so sánh ảnh chụp màn hình cho các quy tắc bằng cách nhấp vào dấu chấm than màu đỏ để xác nhận xem tất cả đều ổn."
+
+#: classes/autoptimizeMetabox.php:183
+msgid "Sorry, something went wrong."
+msgstr "Xin lỗi, có lỗi xảy ra."
+
+#: classes/autoptimizeMetabox.php:180
+msgid "Could not add to CCSS job queue."
+msgstr "Không thể thêm vào hàng đợi công việc CCSS."
+
+#: classes/autoptimizeMetabox.php:178
+msgid "Added to CCSS job queue."
+msgstr "Đã thêm vào hàng đợi công việc CCSS."
+
+#: classes/autoptimizeMetabox.php:139
+msgid "Generate Critical CSS"
+msgstr "Tạo CSS quan trọng"
+
+#: classes/critcss-inc/admin_settings_queue.php:55
+msgid "How To Use Autoptimize CriticalCSS Queue"
+msgstr "Cách sử dụng Tự động tối ưu hóa hàng đợi CriticalCSS"
+
+#. Translators: the sentence will be finished with the name of the offending
+#. plugin and a final stop.
+#: classes/autoptimizeMain.php:748
+msgid "It looks like you have <strong>another plugin also doing CSS and/ or JS optimization</strong>, which can result in hard to troubleshoot <strong>conflicts</strong>. For this reason it is recommended to disable this functionality in"
+msgstr "Có vẻ như bạn có <strong> một plugin khác cũng thực hiện tối ưu hóa CSS và / hoặc JS </strong>, điều này có thể dẫn đến <strong> xung đột </strong> khó khắc phục. Vì lý do này, bạn nên tắt chức năng này trong"
+
+#: classes/autoptimizeMain.php:727
+msgid "It looks like your site might not have <strong>page caching</strong> which is a <strong>must-have for performance</strong>. If you are sure you have a page cache, you can close this notice, but when in doubt check with your host if they offer this or install a page caching plugin like for example"
+msgstr "Có vẻ như trang web của bạn có thể không có <strong> bộ nhớ đệm trang </strong> là điều kiện <strong> bắt buộc phải có để có hiệu suất </strong>. Nếu bạn chắc chắn rằng bạn có bộ nhớ cache của trang, bạn có thể đóng thông báo này, nhưng khi nghi ngờ, hãy kiểm tra với máy chủ của bạn xem họ có cung cấp điều này hay không hoặc cài đặt một plugin bộ nhớ đệm trang như chẳng hạn."
+
+#: classes/autoptimizeCriticalCSSSettings.php:154
+msgid "The \"Eliminate render-blocking CSS\" option was activated to allow critical CSS to be used."
+msgstr "Tùy chọn \"Loại bỏ CSS chặn kết xuất\" đã được kích hoạt để cho phép sử dụng CSS quan trọng."
+
+#: classes/critcss-inc/admin_settings_queue.php:84
+msgid "Manually process the job queue"
+msgstr "Xử lý thủ công hàng đợi công việc"
+
+#: classes/autoptimizeMetabox.php:113
+msgid "Lazyload images?"
+msgstr "Lazyload hình ảnh?"
+
+#: classes/autoptimizeMetabox.php:101
+msgid "Inline critical CSS?"
+msgstr "CSS quan trọng?"
+
+#: classes/autoptimizeMetabox.php:86
+msgid "Optimize CSS?"
+msgstr "Tối ưu hóa CSS"
+
+#: classes/autoptimizeMetabox.php:74
+msgid "Optimize JS?"
+msgstr "Tối ưu hóa JS"
+
+#: classes/autoptimizeMetabox.php:62
+msgid "Optimize this page?"
+msgstr "Tối ưu hóa trang này"
+
+#: classes/autoptimizeMetabox.php:35
+msgid "Autoptimize this page"
+msgstr "Tự động hóa trang này"
+
+#: classes/critcss-inc/admin_settings_adv.php:112
+msgid "<b>This functionality will be removed in a next major version of Autoptimize</b>, being replaced by the combination of the \"do not aggregate but defer JS\" + \"defer inline JS\" options on the main settings page."
+msgstr "<b>Chức năng này sẽ bị loại bỏ trong phiên bản chính tiếp theo của Autoptimize</b>, được thay thế bằng sự kết hợp của các tùy chọn \"không tổng hợp nhưng trì hoãn JS\" + \"trì hoãn JS nội tuyến\" trên trang cài đặt chính."
+
+#: classes/critcss-inc/admin_settings_adv.php:106
+msgid "Defer jQuery and other non-aggregated JS-files? (deprecated)"
+msgstr "Trì hoãn jQuery và các tệp JS không tổng hợp khác? (không dùng nữa)"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:231
+msgid "Could not process queue."
+msgstr "Không thể xử lý hàng đợi. "
+
+#: classes/critcss-inc/admin_settings_queue.js.php:229
+msgid "The queue is locked, retry in a couple of minutes. If this problem persists and the queue is not moving at all remove the <code>wp-content/uploads/ao_ccss/queue.lock</code> file."
+msgstr "Hàng đợi bị khóa, thử lại trong vài phút. Nếu sự cố này vẫn tồn tại và hàng đợi hoàn toàn không di chuyển, hãy loại bỏ tệp <code>wp-content/uploads/ao_ccss/queue.lock</code>."
+
+#: classes/critcss-inc/admin_settings_queue.js.php:226
+msgid "Queue processed, reloading page."
+msgstr "Trang xếp hàng đã xử lý, tải lại"
+
+#: classes/autoptimizeConfig.php:353
+msgid "Remove Unused CSS?"
+msgstr "Xóa CSS không sử dụng?"
+
+#: classes/autoptimizeConfig.php:357
+msgid "If Google Pagespeed Insights detects unused CSS, consider using %s to <strong>reduce your site's CSS size to up to 90&#37;</strong>, resulting in a slimmer, faster site!"
+msgstr "Nếu Google Pagespeed Insights phát hiện ra các CSS không được sử dụng, hãy cân nhắc sử dụng plugin %s để <strong>giảm kích thước CSS trang web của quý vị lên đến 90&#37;</strong> điều này sẽ giúp trang web nhẹ hơn, nhanh hơn!"
+
+#: classes/autoptimizeConfig.php:283
+msgid "Autoptimize combines your theme & plugins' JavaScript, but does not know what is used and what not. If Google Pagespeed Insights detects unused JavaScript, consider using a plugin like \"Plugin Organizer\" or similar to manage what JavaScript is added where."
+msgstr "Autoptimize sẽ tự động kết hợp JavaScript từ theme và plugin của quý vị, nhưng không biết tài nguyên nào được sử dụng hoặc không. Nếu Google Pagespeed Insights phát hiện được JavaScript không được sử dụng thì hãy xem xét việc sử dụng thêm một plugin như \"Plugin Organizer\" hoặc các plugin trương tự để quản lý và biết chính xác nơi mà JavaScript được thêm vào."
+
+#: classes/autoptimizeConfig.php:323
+msgid "Eliminate render-blocking CSS?"
+msgstr "Loại bỏ CSS chặn hiển thị (render-blocking)?"
+
+#: classes/autoptimizeConfig.php:476
+msgid "Enable configuration per post/ page?"
+msgstr "Bật cấu hình cho mỗi bài đăng/trang?"
+
+#: classes/autoptimizeConfig.php:478
+msgid "Add a \"metabox\" to the post/ page edit screen allowing different optimizations to be turned off on a per post/ page level?"
+msgstr "Thêm một hộp tùy chỉnh (metabox) vào màn hình tạo/sửa các bài viết/trang. Điều này sẽ giúp quý vị có những tùy chỉnh riêng lẽ và tiện lợi hơn cho từng trang/bài đăng. "
+
+#: classes/autoptimizeImages.php:1207
+msgid "Automatically serve AVIF image format to any browser that supports it."
+msgstr "Tự động cung cấp định dạng hình ảnh AVIF cho bất kỳ trình duyệt nào hỗ trợ nó."
+
+#: classes/autoptimizeCriticalCSSSettings.php:186
+msgid "You have \"defer jQuery and other non-aggregated JS-files\" active (under Advanced Settings), but that functionality is deprecated and will be removed in the next major version of Autoptimize. Consider using the new \"Do not aggregate but defer\" and \"Also defer inline JS\" options on the main settings page instead."
+msgstr "Bạn có \"trì hoãn jQuery và các tệp JS không tổng hợp khác\" đang hoạt động (trong Cài đặt nâng cao), nhưng chức năng đó bị loại bỏ và sẽ bị xóa trong phiên bản chính tiếp theo của Autoptimize. Cân nhắc sử dụng các tùy chọn \"Không tổng hợp nhưng trì hoãn\" và \"Cũng trì hoãn JS nội tuyến\" mới trên trang cài đặt chính thay thế."
+
+#: classes/autoptimizeConfig.php:282
+msgid "Remove Unused JavaScript?"
+msgstr "Xóa JavaScript không sử dụng?"
+
+#: classes/autoptimizeConfig.php:234
+msgid "Aggregate all linked JS-files to have them loaded non-render blocking?"
+msgstr "Kết hợp tất cả các tệp JS lại (non-render blocking)?"
+
+#: classes/autoptimizeConfig.php:239
+msgid "Let Autoptimize also extract JS from the HTML (discouraged as it can make Autoptimize's cache size grow quickly)"
+msgstr "Cho phép Autoptimize tạo JS vào bên trong mã HTML (không khuyến khích vì điều này có thể làm cho kích thước bộ nhớ đệm của Autoptimize tăng lên nhanh chóng)"
+
+#: classes/autoptimizeConfig.php:244
+msgid "Load JavaScript early (discouraged as it makes the JS render blocking)"
+msgstr "Ưu tiên tải JavaScript trước (không khuyến khích vì nó có thể làm lỗi hiển thị \"JS render blocking\")"
+
+#: classes/autoptimizeConfig.php:249
+msgid "If your aggregated scripts break because of a JS-error, you might want to try this, but generally discouraged."
+msgstr "Nếu các tập lệnh kết hợp JS của quý vị bị lỗi, quý vị có thể thử bật tính năng này, tuy nhiên điều này thường không được khuyến khích."
+
+#: classes/autoptimizeConfig.php:277
+msgid "A comma-separated list of scripts you do not want optimized, for example 'whatever.js, my_var' (without the quotes)."
+msgstr "Danh sách các tập lệnh được phân tách bằng dấu phẩy (;) mà quý vị không muốn chúng được tối ưu hóa, ví dụ: 'whatever.js, my_var' (không có dấu ngoặc kép)."
+
+#: classes/autoptimizeConfig.php:277
+msgid "Important: when \"aggregate JS-files\" is on, excluded non-minified files are still minified by Autoptimize unless that option under \"misc\" is disabled."
+msgstr "Chú ý quan trọng: khi tính năng \"Kết hợp JS\" được bật, các tệp không được nén (non-minified) hay đã được nén (minified) vẫn được Autoptimize thu nhỏ trừ khi tùy chọn đó trong phần \"Tùy chọn khác\" bị tắt."
+
+#: classes/autoptimizeConfig.php:259
+msgid "Also defer inline JS. Generally this will allow all JS to be deferred, so you should remove default exclusions, test and only exclude specific items if still needed."
+msgstr "Cũng trì hoãn JS nội tuyến. Nói chung, điều này sẽ cho phép tất cả JS được hoãn lại, vì vậy bạn nên loại bỏ các loại trừ mặc định, kiểm tra và chỉ loại trừ các mục cụ thể nếu vẫn cần."
+
+#: classes/autoptimizeConfig.php:257
+msgid "Also defer inline JS?"
+msgstr "Cũng trì hoãn JS nội tuyến?"
+
+#: classes/autoptimizeConfig.php:254
+msgid "Individual JS-files will be minified and deferred, making them non-render-blocking."
+msgstr "Các tệp JS riêng lẻ sẽ được giảm thiểu và hoãn lại, khiến chúng không bị chặn hiển thị."
+
+#. translators: "here to refresh" links to the Autoptimize Extra page and
+#. forces a refresh of the img opt stats.
+#: classes/autoptimizeImages.php:1299
+msgid "you can click %1$shere to refresh your quota status%2$s"
+msgstr "bạn có thể bấm %1$shere để làm mới trạng thái hạn ngạch của bạn%2$s "
+
+#. translators: link points to shortpixel.
+#: classes/autoptimizeImages.php:1157
+msgid "%1$sSign-up now%2$s to receive x2 more CDN traffic or image optimization credits for free! This offer also applies to any future plan that you'll choose to purchase."
+msgstr "%1$sĐăng ký ngay%2$s để nhận thêm lưu lượng CDN hoặc tín dụng tối ưu hóa hình ảnh miễn phí! Ưu đãi này cũng áp dụng cho bất kỳ kế hoạch nào trong tương lai mà bạn sẽ chọn mua. "
+
+#: classes/autoptimizeImages.php:1223
+msgid "Lazy-load from nth image"
+msgstr "Lazy-load từ hình ảnh thứ n"
+
+#: classes/autoptimizeImages.php:1173
+msgid "Comma-separated list of image classes or filenames that should not be optimized."
+msgstr "Danh sách các lớp hình ảnh hoặc tên tệp tách dấu phẩy không nên tối ưu hóa. "
+
+#: classes/autoptimizeImages.php:1171
+msgid "Optimization exclusions"
+msgstr "Loại trừ tối ưu hóa"
+
+#: classes/autoptimizeConfig.php:252
+msgid "Do not aggregate but defer?"
+msgstr "Không tổng hợp nhưng trì hoãn?  "
+
+#: classes/autoptimizeCriticalCSSSettings.php:273
+msgid "It looks like the amount of Critical CSS rules is very high, it is recommended to reconfigure Autoptimize (e.g. by manually creating broader rules) to ensure less rules are created."
+msgstr "Có vẻ như số lượng các quy tắc Quan trọng CSS là rất cao, nên cấu hình lại Autoptimize (ví dụ: bằng cách tạo thủ công các quy tắc rộng hơn) để đảm bảo ít quy tắc được tạo ra. "
+
+#: classes/autoptimizeCriticalCSSSettings.php:249
+msgid "In the meantime you might want to <strong>edit default rule CSS now</strong>, to avoid all CSS being inlined when no (applicable) rules are found."
+msgstr "Trong khi đó, bạn có thể muốn <strong>đóc tắc tắc mặc định CSS ngay bây giờ</strong>, để tránh tất cả CSS được gạch khi không có quy tắc (áp dụng) nào được tìm thấy."
+
+#: classes/autoptimizeCriticalCSSSettings.php:163
+msgid "Please <strong>activate the \"Eliminate render-blocking CSS\" option</strong> on Autoptimize's main settings page to ensure critical CSS is used on the front-end."
+msgstr "Vui lòng <strong> kích hoạt tùy chọn \"Loại bỏ CSS chặn kết xuất\"</strong> trên trang cài đặt chính của Autoptimize để đảm bảo CSS quan trọng được sử dụng ở mặt trước. "
+
+#: classes/critcss-inc/admin_settings_adv.php:67
+msgid "The cronned queue processing is an asynchronous process triggerd by (WordPress) cron. To avoid this process from running too long and potentially getting killed, you can set the number of seconds here, 0 means no limit."
+msgstr "Xử lý hàng đợi cronned là một quy trình không đồng bộ được kích hoạt bởi (WordPress) cron. Để tránh quá trình này chạy quá lâu và có khả năng bị giết, bạn có thể đặt số giây ở đây, 0 có nghĩa là không có giới hạn."
+
+#: classes/critcss-inc/admin_settings_adv.php:62
+msgid "Queue processing time limit"
+msgstr "Giới hạn thời gian xử lý hàng đợi"
+
+#. translators: "associate your domain" will appear in a "a href".
+#: classes/autoptimizeImages.php:1276
+msgid "If you have enough CDN quota remaining, then you may need to %1$sassociate your domain%2$s to your Shortpixel account."
+msgstr "Nếu bạn còn đủ hạn ngạch CDN, thì bạn có thể cần %1$sliên kết tên miền%2$s của mình vào tài khoản Shortpixel của bạn. "
+
+#: classes/autoptimizeConfig.php:453
+msgid "Enable 404 fallbacks?"
+msgstr "Bật 404 dự phòng?\t"
+
+#: classes/critcss-inc/admin_settings_adv.php:123
+msgid "In rare cases the critical CSS needs to be removed once the full CSS loads, this option makes it so!"
+msgstr "Trong một số ít trường hợp, CSS quan trọng cần phải được loại bỏ một khi tải CSS đầy đủ, tùy chọn này làm cho nó như vậy! "
+
+#: classes/critcss-inc/admin_settings_adv.php:118
+msgid "Unload critical CSS after page load?"
+msgstr "Bỏ tải CSS quan trọng sau khi tải trang?"
+
+#: classes/critcss-inc/admin_settings_explain.php:37
+msgid "<h2>Fix render-blocking CSS!</h2><p>Significantly improve your first-paint times by making CSS non-render-blocking.</p><p>The next step is to sign up at <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">https://criticalcss.com</a> (this is a premium service, priced 2 GBP/month for membership and 5 GBP/month per domain) <strong>and get the API key, which you can copy from <a href=\"https://criticalcss.com/account/api-keys?aff=1\" target=\"_blank\">the API-keys page</a></strong> and paste below.</p><p>If you have any questions or need support, head on over to <a href=\"https://wordpress.org/support/plugin/autoptimize\" target=\"_blank\">our support forum</a> and we'll help you get up and running in no time!</p>"
+msgstr "<h2>Sửa CSS chặn kết xuất!</h2> <p>Cải thiện đáng kể số lần sơn đầu tiên của bạn bằng cách đặt CSS không chặn hiển thị..</p><p>Cuộc bước tiếp theo là đăng ký tại <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">https://criticalcss.com</a> (đây là dịch vụ cao cấp, có giá 2 GBP/tháng cho tư cách thành viên và 5 GBP/tháng cho mỗi tên miền) <strong>và nhận khóa API, bạn có thể sao chép từ <a href=\"https://criticalcss.com/account/api-keys?aff=1\" target=\"_blank\">tại API-keys</a></strong> và paste bên dưới.</p><p>Nếu bạn có bất kỳ câu hỏi hoặc cần hỗ trợ nào, hãy truy cập vào <a href=\"https://wordpress.org/support/plugin/autoptimize\" target=\"_blank\">diễn đàn hỗ trợ của chúng tôi </a> và chúng tôi sẽ giúp bạn đứng dậy và chạy ngay lập tức!</p>"
+
+#: classes/autoptimizeConfig.php:341
+msgid "Inlining all CSS is an easy way to stop the CSS from being render-blocking, but is generally not recommended because the size of the HTML increases significantly. Additionally it might push meta-tags down to a position where e.g. Facebook and Whatsapp will not find them any more, breaking thumbnails when sharing."
+msgstr "Chèn CSS vào HTML (nội tuyến CSS) sẽ bỏ qua việc tải các file .css (render-blocking), nhưng thường không được khuyến khích vì kích thước của HTML sẽ tăng lên đáng kể. Ngoài ra, nó có thể hiển thị các thẻ meta ra ngoài trang web ví dụ: Facebook và Whatsapp sẽ không tìm thấy chúng nữa, có khi sẽ phá vỡ các ảnh thu nhỏ."
+
+#: classes/autoptimizeConfig.php:455
+msgid "Sometimes Autoptimized JS/ CSS is referenced in cached HTML but is already removed, resulting in broken sites. With this option on, Autoptimize will try to redirect those not-found files to \"fallback\"-versions, keeping the page/ site somewhat intact. In some cases this will require extra web-server level configuration to ensure <code>wp-content/autoptimize_404_handler.php</code> is set to handle 404's in <code>wp-content/cache/autoptimize</code>."
+msgstr "Thỉnh thoảng, các CSS/JS đã được tối ưu trong mã HTML không hoạt động do bộ nhớ đệm đã bị xóa dẫn đến trang web bị lỗi. Khi bật tùy chọn này, Autoptimize sẽ cố gắng chuyển hướng các tệp không tìm thấy đó sang phiên bản \"dự phòng\", giữ nguyên phần nào đó của trang web. Trong một số trường hợp, điều này sẽ yêu cầu một số cấu hình từ máy chủ có trong tệp tin <code>wp-content/autoptimize_404_handler.php</code> tệp này sẽ baop gồm các cấu hình 404 cho thư mục <code>wp-content/cache/autoptimize</code>."
+
+#: classes/autoptimizeCriticalCSSCore.php:428
+msgid "Please enter a valid <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> API key to start."
+msgstr "Vui lòng nhập khóa API <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> khóa API để bắt đầu."
+
+#: classes/autoptimizeCriticalCSSCore.php:419
+msgid "Something went wrong when checking your API key, make sure you server can communicate with https://criticalcss.com and/ or try again later."
+msgstr "Có điều gì đó không ổn khi kiểm tra khóa API của bạn, đảm bảo máy chủ của bạn có thể giao tiếp với https://criticalcss.com và / hoặc thử lại sau."
+
+#: classes/autoptimizeCriticalCSSCore.php:399
+#: classes/autoptimizeCriticalCSSCore.php:417
+msgid "Your API key is invalid. Please enter a valid <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> key."
+msgstr "Khóa API của bạn không hợp lệ. Vui lòng nhập khóa <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> "
+
+#: classes/autoptimizeCriticalCSSCore.php:397
+#: classes/autoptimizeCriticalCSSCore.php:414
+msgid "Invalid"
+msgstr "Không hợp lệ"
+
+#: classes/autoptimizeCriticalCSSCore.php:390
+#: classes/autoptimizeCriticalCSSCore.php:408
+msgid "Valid"
+msgstr "Hợp lệ "
+
+#: classes/autoptimizeCriticalCSSBase.php:197
+msgid "Autoptimize CriticalCSS"
+msgstr "Tự động tối ưu hóa CriticalCSS"
+
+#: classes/critcss-inc/admin_settings_rules.php:196
+msgid "Remove all rules"
+msgstr "Xóa tất cả quy tắc"
+
+#: classes/critcss-inc/admin_settings_rules.php:193
+msgid "Add CSS To All Rules"
+msgstr "Thêm CSS vào tất cả các quy tắc"
+
+#: classes/critcss-inc/admin_settings_rules.php:192
+msgid "Edit Default Rule CSS"
+msgstr "Chỉnh sửa CSS quy tắc mặc định"
+
+#: classes/critcss-inc/admin_settings_rules.php:191
+msgid "Add New Rule"
+msgstr "Thêm quy tắc mới"
+
+#: classes/critcss-inc/admin_settings_rules.php:178
+msgid "At any time you can delete an <span class=\"badge auto\">AUTO</span> or <span class=\"badge manual\">MANUAL</span> rule by cliking on \"Remove\" button of the desired rule and saving your changes."
+msgstr "Bất cứ lúc nào bạn có thể xóa quy tắc <span class=\"badge auto\">TỰ ĐỘNG</span> hoặc <span class=\"badge manual\">MANUAL</span> quy tắc bằng cách ghi lại nút \"Loại bỏ\" của quy tắc mong muốn và lưu các thay đổi của bạn."
+
+#: classes/autoptimizeConfig.php:193
+msgid "Autoptimize now includes the criticalcss.com integration that was previously part of the separate power-up. If you want you can simply disable the power-up and Autoptimize will take over immediately."
+msgstr "Autoptimize bây giờ bao gồm criticalcss.com tích hợp mà trước đây là một phần của power-up riêng biệt. Nếu bạn muốn, bạn chỉ cần vô hiệu hóa power-up và Autoptimize sẽ tiếp quản ngay lập tức."
+
+#: classes/critcss-inc/admin_settings_rules.php:177
+msgid "You can create <span class=\"badge manual\">MANUAL</span> rules for specific page paths (URL). Longer, more specific paths have higher priority over shorter ones, which in turn have higher priority over <span class=\"badge auto\">AUTO</span> rules. Also, critical CSS files from <span class=\"badge manual\">MANUAL</span> <strong>rules are NEVER updated automatically.</strong>"
+msgstr "Bạn có thể tạo <span class=\"badge manual\">HƯỚNG DẪN</span> quy tắc cho đường dẫn trang cụ thể (URL). Các đường dẫn dài hơn, cụ thể hơn có ưu tiên cao hơn các đường dẫn ngắn hơn, do đó có ưu tiên cao hơn <span class=\"badge auto\">AUTO</span> quy tắc. Ngoài ra, các tệp CSS quan trọng từ <span class=\"badge manual\">HƯỚNG DẪN</span> <strong>quy tắc KHÔNG BAO GIỜ được cập nhật tự động.</strong>"
+
+#: classes/critcss-inc/admin_settings_rules.php:176
+msgid "If you want to make any fine tunning in the critical CSS file of an <span class=\"badge auto\">AUTO</span> rule, click on \"Edit\" button of that rule, change what you need, submit and save it. The rule you've just edited becomes a <span class=\"badge manual\">MANUAL</span> rule then."
+msgstr "Nếu bạn muốn thực hiện bất kỳ quy tắc tốt nào trong tệp CSS quan trọng của <span class=\"badge auto\">TỰ ĐỘNG</span> quy tắc, nhấp vào nút \"Chỉnh sửa\" của quy tắc đó, thay đổi những gì bạn cần, gửi và lưu nó. Quy tắc bạn vừa chỉnh sửa trở thành quy tắc <span class=\"badge manual\">HƯỚNG DẪN</span> quy tắc sau đó. "
+
+#: classes/critcss-inc/admin_settings_rules.php:175
+msgid "These requests also creates an <span class=\"badge auto\">AUTO</span> rule for you. The critical CSS files from <span class=\"badge auto\">AUTO</span> <strong>rules are updated automatically</strong> when a CSS file in your theme or frontend plugins changes."
+msgstr "Những yêu cầu này cũng tạo ra một quy tắc <span class=\"badge auto\">TỰ ĐỘNG</span> quy tắc cho bạn. Các tệp CSS quan trọng từ <span class=\"badge auto\">TỰ ĐỘNG</span> <strong>rules được cập nhật tự động</strong> khi tệp CSS trong chủ đề hoặc plugin frontend của bạn thay đổi. "
+
+#: classes/critcss-inc/admin_settings_rules.php:174
+msgid "Upon a request to any of the frontend pages made by a <strong>not logged in user</strong>, it will <strong>asynchronously</strong> fetch and update the critical CSS from <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> for conditional tags you have on your site (e.g. is_page, is_single, is_archive etc.)"
+msgstr "Khi có yêu cầu đến bất kỳ trang frontend nào được thực hiện bởi một <strong>không đăng nhập vào </strong> người dùng, nó sẽ <strong>không đồng bộ</strong> lấy và cập nhật CSS quan trọng từ <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> cho các thẻ có điều kiện bạn có trên trang web của mình (ví dụ: is_page, is_single, is_archive, v.v.)"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:65
+msgid "AUTO"
+msgstr "TỰ ĐỘNG"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:62
+msgid "MANUAL"
+msgstr "THỦ CÔNG"
+
+#: classes/critcss-inc/admin_settings_adv.php:146
+msgid "<strong>CAUTION! Only use debug mode on production/live environments for ad-hoc troubleshooting and remember to turn it back off after</strong>, as this generates a lot of log-data.<br />Check the box above to enable Autoptimize CriticalCSS Power-Up debug mode. It provides debug facilities in this screen, to the browser console and to this file: "
+msgstr "<strong>Thận trọng! Chỉ sử dụng chế độ gỡ lỗi trên môi trường sản xuất /trực tiếp để khắc phục sự cố đặc biệt và nhớ tắt nó trở lại sau</strong>, vì điều này tạo ra rất nhiều log-data.<br />Tạo hộp ở trên để bật chế độ gỡ lỗi Autoptimize CriticalCSS Power-Up. Nó cung cấp các tiện nghi gỡ lỗi trong màn hình này, cho bảng điều khiển trình duyệt và tệp này: "
+
+#: classes/critcss-inc/admin_settings_debug.php:75
+msgid "WP-Cron Scheduled Events"
+msgstr "Sự kiện đã lên lịch của WP-Cron"
+
+#: classes/critcss-inc/admin_settings_debug.php:72
+msgid "WP-Cron Intervals"
+msgstr "Khoảng WP-Cron"
+
+#: classes/critcss-inc/admin_settings_debug.php:39
+msgid "Options"
+msgstr "Tùy chọn"
+
+#: classes/critcss-inc/admin_settings_debug.php:33
+msgid "Debug Information"
+msgstr "Thông tin gỡ lỗi"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:314
+msgid "Additional Critical CSS"
+msgstr "CSS quan trọng bổ sung"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:293
+msgid "Default Critical CSS"
+msgstr "CSS quan trọng mặc định"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:273
+msgid "RULE VALIDATION ERROR!\\n\\nType based rules REQUIRES a minified critical CSS."
+msgstr "LỖI XÁC THỰC QUY TẮC!\\n\\n Quy tắc dựa trên kiểu yêu cầu CSS quan trọng được khai thác tối thiểu."
+
+#: classes/critcss-inc/admin_settings_rules.js.php:271
+msgid "RULE VALIDATION ERROR!\\n\\nBased on your rule type, you SHOULD set a path or conditional tag."
+msgstr "LỖI XÁC THỰC QUY TẮC!\\n\\n Dựa trên loại quy tắc của bạn, bạn NÊN đặt đường dẫn hoặc thẻ có điều kiện."
+
+#: classes/critcss-inc/admin_settings_rules.js.php:265
+#: classes/critcss-inc/admin_settings_rules.js.php:296
+#: classes/critcss-inc/admin_settings_rules.js.php:317
+msgid "Submit"
+msgstr "Gửi"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:253
+msgid "For path based rules, paste your specific and minified critical CSS here or leave this empty to fetch it from criticalcss.com and hit submit to save. If you want to create a rule to exclude from critical CSS injection, enter \\\"none\\\""
+msgstr "Đối với các quy tắc dựa trên đường dẫn, dán CSS quan trọng cụ thể và được khai thác của bạn ở đây hoặc để trống điều này để lấy nó từ criticalcss.com và nhấn gửi để lưu. Nếu bạn muốn tạo một quy tắc để loại trừ khỏi tiêm CSS quan trọng, hãy nhập \"none\""
+
+#: classes/critcss-inc/admin_settings_rules.js.php:249
+msgid "For type based rules, paste your specific and minified critical CSS here and hit submit to save. If you want to create a rule to exclude from critical CSS injection, enter \\\"none\\\"."
+msgstr "Đối với các quy tắc dựa trên kiểu, dán CSS quan trọng cụ thể và được khai thác của bạn ở đây và nhấn gửi để lưu. Nếu bạn muốn tạo một quy tắc để loại trừ khỏi tiêm CSS quan trọng, hãy nhập \"none\"."
+
+#: classes/critcss-inc/admin_settings_rules.js.php:238
+msgid "Add Critical CSS Rule"
+msgstr "Thêm quy tắc CSS quan trọng"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:209
+msgid "Loading critical CSS..."
+msgstr "Đang tải CSS quan trọng ..."
+
+#: classes/critcss-inc/admin_settings_rules.js.php:198
+msgid "Edit Critical CSS Rule"
+msgstr "Sửa CSS quan trọng ..."
+
+#: classes/critcss-inc/admin_settings_rules.js.php:133
+msgid "Delete All"
+msgstr "Xóa tất cả"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:79
+msgid "Remove"
+msgstr "Xóa"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:79
+msgid "Edit"
+msgstr "Sửa"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:59
+msgid "To be fetched from criticalcss.com in the next queue run..."
+msgstr "Để được tìm nạp từ criticalcss.com trong lần chạy hàng đợi tiếp theo ..."
+
+#: classes/critcss-inc/admin_settings_rules.js.php:49
+msgid "Critical CSS File"
+msgstr "File CSS quan trọng"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:49
+msgid "Target"
+msgstr "Mục tiêu"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:49
+msgid "Type"
+msgstr "Kiểu"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:45
+msgid "Conditional Tags, Custom Post Types and Page Templates Rules"
+msgstr "Thẻ có điều kiện, Loại bài đăng tùy chỉnh và Quy tắc mẫu trang"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:43
+msgid "Path Based Rules"
+msgstr "Quy tắc dựa trên đường dẫn"
+
+#: classes/critcss-inc/admin_settings_impexp.js.php:35
+msgid "Export settings result"
+msgstr "Xuất kết quả cài đặt"
+
+#: classes/critcss-inc/admin_settings_rules.php:158
+msgid "Paste your minified additional critical CSS here and hit submit to save. This is the CSS to be added AT THE END of every critical CSS provided by a matching rule, or the default one."
+msgstr "Dán CSS quan trọng bổ sung đã được rút gọn của bạn vào đây và nhấn gửi để lưu. Đây là CSS sẽ được thêm vào CUỐI CÙNG của mọi CSS quan trọng được cung cấp bởi quy tắc phù hợp hoặc quy tắc mặc định."
+
+#: classes/critcss-inc/admin_settings_rules.php:153
+msgid "Paste your minified default critical CSS here and hit submit to save. This is the critical CSS to be used for every page not matching any rule."
+msgstr "Dán CSS quan trọng mặc định được rút gọn của bạn vào đây và nhấn gửi để lưu. Đây là CSS quan trọng được sử dụng cho mọi trang không khớp với bất kỳ quy tắc nào."
+
+#: classes/critcss-inc/admin_settings_rules.php:148
+msgid "All Critical CSS rules will be deleted immediately and cannot be recovered.<br /><br /><strong>Are you sure?</strong>"
+msgstr "Tất cả các quy tắc quan trọng của CSS sẽ bị xóa ngay lập tức và không thể phục hồi.<br /><br /><strong>Bạn chắc chắn không?</strong>"
+
+#: classes/critcss-inc/admin_settings_rules.php:147
+msgid "Delete all Rules and Jobs"
+msgstr "Xóa tất cả Quy tắc và Công việc "
+
+#: classes/critcss-inc/admin_settings_rules.php:143
+msgid "This Critical CSS rule will be deleted immediately and cannot be recovered.<br /><br /><strong>Are you sure?</strong>"
+msgstr "Quy tắc CSS quan trọng này sẽ bị xóa ngay lập tức và không thể phục hồi.<br /><br /><strong>Bạn chắc chắn không?</strong>"
+
+#: classes/critcss-inc/admin_settings_rules.php:142
+msgid "Delete Rule"
+msgstr "Xóa quy tắc"
+
+#: classes/critcss-inc/admin_settings_rules.php:133
+msgid "Paste your specific critical CSS here and hit submit to save."
+msgstr "Dán CSS quan trọng cụ thể của bạn ở đây và nhấn gửi để lưu. "
+
+#: classes/critcss-inc/admin_settings_rules.php:130
+msgid "Custom Critical CSS"
+msgstr "CSS quan trọng tùy chỉnh "
+
+#: classes/critcss-inc/admin_settings_rules.php:95
+msgid "WooCommerce Conditional Tags"
+msgstr "WooCommerce Thẻ có điều kiện "
+
+#: classes/critcss-inc/admin_settings_rules.php:91
+msgid "Easy Digital Downloads Conditional Tags"
+msgstr "Thẻ có điều kiện tải xuống kỹ thuật số dễ dàng"
+
+#: classes/critcss-inc/admin_settings_rules.php:87
+msgid "BuddyPress Conditional Tags"
+msgstr "Thẻ có điều kiện BuddyPress"
+
+#: classes/critcss-inc/admin_settings_rules.php:83
+msgid "BBPress Conditional Tags"
+msgstr "Thẻ có điều kiện BBPress"
+
+#: classes/critcss-inc/admin_settings_rules.php:79
+msgid "Page Templates"
+msgstr "Mẫu trang"
+
+#: classes/critcss-inc/admin_settings_rules.php:75
+msgid "Custom Post Types"
+msgstr "Loại bài đăng tùy chỉnh"
+
+#: classes/critcss-inc/admin_settings_rules.php:53
+msgid "Standard Conditional Tags"
+msgstr "Thẻ có điều kiện tiêu chuẩn"
+
+#: classes/critcss-inc/admin_settings_rules.php:52
+msgid "Select from the list below..."
+msgstr "Chọn từ danh sách dưới đây..."
+
+#: classes/critcss-inc/admin_settings_rules.php:48
+msgid "Conditional Tag, Custom Post Type or Page Template"
+msgstr "Thẻ có điều kiện, loại bài đăng tùy chỉnh hoặc Mẫu trang"
+
+#: classes/critcss-inc/admin_settings_rules.php:43
+msgid "Enter a part of the URL that identifies the page(s) you're targetting."
+msgstr "Nhập một phần của URL xác định (các) trang bạn đang nhắm mục tiêu."
+
+#: classes/critcss-inc/admin_settings_rules.php:40
+msgid "String in Path"
+msgstr "Chuỗi trong đường dẫn"
+
+#: classes/critcss-inc/admin_settings_rules.php:34
+msgid "Conditional Tag"
+msgstr "Thẻ có điều kiện"
+
+#: classes/critcss-inc/admin_settings_rules.php:33
+msgid "Path"
+msgstr "Đường dẫn"
+
+#: classes/critcss-inc/admin_settings_rules.php:29
+msgid "Rule Type"
+msgstr "Loại quy tắc"
+
+#: classes/critcss-inc/admin_settings_rules.php:21
+msgid "<strong>Rules or Queue changed!</strong> Don't forget to save your changes!"
+msgstr "<strong>Quy tắc hoặc Hàng đợi đã thay đổi!</strong> Đừng quên lưu lại những thay đổi của bạn!"
+
+#: classes/critcss-inc/admin_settings_rules.php:16
+msgid "Rules"
+msgstr "Quy tắc"
+
+#: classes/critcss-inc/admin_settings_rules.php:173
+msgid "When a valid <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> API key is in place, Autoptimize starts to operate <strong>automatically</strong>."
+msgstr "Khi khóa API <a href=\"https://criticalcss.com/?aff=1\" hợp lệ=\"_blank\">criticalcss.com</a> khóa API được đặt đúng vị trí, Autoptimize bắt đầu hoạt động <strong>mọng tự động</strong>."
+
+#: classes/critcss-inc/admin_settings_rules.php:171
+msgid "TL;DR:<br />Critical CSS files from <span class='badge auto'>AUTO</span> <strong>rules are updated automatically</strong> while from <span class='badge manual'>MANUAL</span> <strong>rules are not.</strong>"
+msgstr "TL;DR:<br />Điều CSS đến hạn từ <span class='badge auto'>TỰ ĐỘNG</span> <strong>quy tắc được cập nhật tự động</strong> trong khi từ <span class='badge manual'>HƯỚNG DẪN</span> <strong>quy tắc thì không</strong>"
+
+#: classes/critcss-inc/admin_settings_adv.php:140
+msgid "Debug Mode"
+msgstr "Chế độ gỡ lỗi"
+
+#: classes/critcss-inc/admin_settings_adv.php:134
+msgid "Only requests from this domain will be sent for Critical CSS generation (pricing is per domain/ month)."
+msgstr "Chỉ các yêu cầu từ tên miền này sẽ được gửi cho thế hệ Critical CSS (giá là mỗi tên miền/tháng). "
+
+#: classes/critcss-inc/admin_settings_adv.php:132
+msgid "Don't leave this empty, put e.g. https://example.net/ or simply 'none' to disable domain binding."
+msgstr "Đừng để trống điều này, hãy đặt ví dụ: https://example.net/ hoặc đơn giản là 'không' để vô hiệu hóa ràng buộc tên miền. "
+
+#: classes/critcss-inc/admin_settings_adv.php:129
+msgid "Bound domain"
+msgstr "Tên miền ràng buộc"
+
+#: classes/critcss-inc/admin_settings_adv.php:111
+msgid "Defer all non-aggregated JS, including jQuery and inline JS to fix remaining render-blocking issues. Make sure to test your site thoroughly when activating this option!"
+msgstr "Trì hoãn tất cả các JS không tổng hợp, bao gồm jQuery và JS nội tuyến để khắc phục các sự cố chặn kết xuất còn lại. Hãy chắc chắn để kiểm tra trang web của bạn kỹ lưỡng khi kích hoạt tùy chọn này! "
+
+#: classes/critcss-inc/admin_settings_adv.php:100
+msgid "By default for each page a separate rule is generated. If your pages have (semi-)identical above the fold look and feel and you want to keep the rules lean, you can disable that so one rule is created to all pages."
+msgstr "Theo mặc định cho mỗi trang, một quy tắc riêng biệt được tạo ra. Nếu các trang của bạn có (bán) giống hệt nhau trên giao diện và cảm nhận gấp và bạn muốn giữ các quy tắc nghiêng, bạn có thể vô hiệu hóa quy tắc đó để một quy tắc được tạo cho tất cả các trang."
+
+#: classes/critcss-inc/admin_settings_adv.php:95
+msgid "Force path-based rules to be generated for pages?"
+msgstr "Buộc các quy tắc dựa trên đường dẫn được tạo ra cho các trang?"
+
+#: classes/critcss-inc/admin_settings_adv.php:89
+msgid "Critical CSS is generated by criticalcss.com from your pages as seen by an \"anonymous visitor\". Disable this option if you don't want the \"visitor\" critical CSS to be used for logged in users."
+msgstr "CSS quan trọng được tạo ra bởi criticalcss.com từ các trang của bạn như được nhìn thấy bởi một \"khách truy cập ẩn danh\". Vô hiệu hóa tùy chọn này nếu bạn không muốn CSS quan trọng \"khách truy cập\" được sử dụng để đăng nhập vào người dùng. "
+
+#: classes/critcss-inc/admin_settings_adv.php:84
+msgid "Add CCSS for logged in users?"
+msgstr "Thêm CCSS cho người dùng đã đăng nhập?"
+
+#: classes/critcss-inc/admin_settings_adv.php:78
+msgid "In some (rare) cases the generation of critical CSS works better with the original CSS instead of the Autoptimized one, this option enables that behavior."
+msgstr "Trong một số trường hợp (hiếm hoi), việc tạo ra CSS quan trọng hoạt động tốt hơn với CSS ban đầu thay vì Autoptimized, tùy chọn này cho phép hành vi đó. "
+
+#: classes/critcss-inc/admin_settings_adv.php:73
+msgid "Fetch Original CSS"
+msgstr "Tìm nạp CSS gốc"
+
+#: classes/critcss-inc/admin_settings_adv.php:54
+msgid ".button-special,//#footer"
+msgstr ".button-special,//#footer"
+
+#: classes/critcss-inc/admin_settings_adv.php:51
+msgid "Force Include CSS selectors"
+msgstr "Buộc bao gồm bộ chọn CSS"
+
+#: classes/critcss-inc/admin_settings_adv.php:56
+msgid "Force include CSS selectors can be used to style dynamic content that is not part of the HTML that is seen during the Critical CSS generation. To use this feature, add comma separated values with both simple strings and/or regular expressions to match the desired selectors. Regular expressions must be preceeded by two forward slashes. For instance: <code>.button-special,//#footer</code>. In this example <code>.button-special</code> will match <code>.button-special</code> selector only, while <code>//#footer</code> will match <code>#footer</code>, <code>#footer-address</code> and <code>#footer-phone</code> selectors in case they exist.<br />Do take into account that changing this setting will only affect new/ updated rules, so you might want to remove old rules and clear your page cache to expedite the forceIncludes becoming used."
+msgstr "Lực bao gồm các bộ chọn CSS có thể được sử dụng để tạo kiểu nội dung động không phải là một phần của HTML được nhìn thấy trong thế hệ Critical CSS. Để sử dụng tính năng này, hãy thêm các giá trị tách dấu phẩy với cả chuỗi đơn giản và/hoặc biểu thức thông thường để phù hợp với các bộ chọn mong muốn. Biểu hiện thông thường phải được chuẩn bị trước bởi hai vết chém về phía trước. Ví dụ: <code>.button-special,//#footer</code>. Trong ví dụ này <code>.button-special</code> sẽ chỉ khớp với bộ chọn <code>.button-special</code>, trong khi <code>//#footer</code> sẽ khớp với <code>#footer</code>, địa chỉ <code>#footer</code> và bộ chọn <code>#footer điện thoại</code> trong trường hợp chúng tồn tại.<br />Do có tính đến việc thay đổi cài đặt này sẽ chỉ ảnh hưởng đến các quy tắc mới / cập nhật, vì vậy bạn có thể muốn loại bỏ các quy tắc cũ và xóa bộ nhớ cache trang của mình để đẩy nhanh các bộ lọc lực lượng được sử dụng."
+
+#: classes/critcss-inc/admin_settings_adv.php:45
+msgid "<a href=\"https://criticalcss.com/account/api-keys?aff=1\" target=\"_blank\">criticalcss.com</a> default viewport size is 1400x1080 pixels (width x height). You can change this size by typing a desired width and height values above. Allowed value ranges are from 800 to 4096 for width and from 600 to 2160 for height."
+msgstr "<a href=\"https://criticalcss.com/account/api-keys?aff=1\" target=\"_blank\">criticalcss.com</a> kích thước viewport mặc định là 1400x1080 pixel (rộng x cao). Bạn có thể thay đổi kích thước này bằng cách nhập giá trị chiều rộng và chiều cao mong muốn ở trên. Phạm vi giá trị cho phép là từ 800 đến 4096 cho chiều rộng và từ 600 đến 2160 cho chiều cao."
+
+#: classes/critcss-inc/admin_settings_queue.php:77
+msgid "Status"
+msgstr "Tình trạng"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:77
+msgid "PENDING"
+msgstr "CHƯA GIẢI QUYẾT"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:83
+msgid "REVIEW"
+msgstr "ĐANG XEM XÉT"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:90
+msgid "DONE"
+msgstr "HOÀN THÀNH"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:97
+msgid "ERROR"
+msgstr "LỖI:"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:98
+#: classes/critcss-inc/admin_settings_queue.js.php:107
+msgid "Get Help"
+msgstr "Tìm trợ giúp"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:106
+msgid "UNKNOWN"
+msgstr "KHÔNG XÁC ĐỊNH"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:114
+msgid "N/A"
+msgstr "KHÔNG XÁC ĐỊNH"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:143
+#: classes/critcss-inc/admin_settings_rules.js.php:115
+msgid "Delete"
+msgstr "Xóa"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:148
+#: classes/critcss-inc/admin_settings_queue.js.php:166
+#: classes/critcss-inc/admin_settings_queue.js.php:196
+#: classes/critcss-inc/admin_settings_rules.js.php:120
+#: classes/critcss-inc/admin_settings_rules.js.php:140
+#: classes/critcss-inc/admin_settings_rules.js.php:279
+#: classes/critcss-inc/admin_settings_rules.js.php:301
+#: classes/critcss-inc/admin_settings_rules.js.php:322
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:181
+msgid "Retry"
+msgstr "Thử lại"
+
+#: classes/critcss-inc/admin_settings_adv.php:31
+msgid "Advanced Settings"
+msgstr "Cài đặt nâng cao"
+
+#: classes/critcss-inc/admin_settings_adv.php:42
+msgid "Width"
+msgstr "Rộng"
+
+#: classes/critcss-inc/admin_settings_adv.php:43
+msgid "Height"
+msgstr "Cao"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:161
+msgid "Delete all jobs?"
+msgstr "Xóa tất cả các công việc? "
+
+#: classes/critcss-inc/admin_settings_queue.js.php:120
+msgid "Job status is "
+msgstr "Tình trạng công việc là  "
+
+#: classes/critcss-inc/admin_settings_queue.js.php:83
+#: classes/critcss-inc/admin_settings_queue.js.php:97
+#: classes/critcss-inc/admin_settings_queue.js.php:106
+msgid "- Validation: "
+msgstr "- Xác nhận:  "
+
+#: classes/critcss-inc/admin_settings_queue.js.php:83
+#: classes/critcss-inc/admin_settings_queue.js.php:97
+#: classes/critcss-inc/admin_settings_queue.js.php:106
+msgid "- Result: "
+msgstr "- Kết quả:"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:83
+#: classes/critcss-inc/admin_settings_queue.js.php:97
+#: classes/critcss-inc/admin_settings_queue.js.php:106
+msgid "- Status: "
+msgstr "- Trạng thái:"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:83
+#: classes/critcss-inc/admin_settings_queue.js.php:97
+#: classes/critcss-inc/admin_settings_queue.js.php:106
+msgid "- Job ID: "
+msgstr "- ID công việc:"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:83
+#: classes/critcss-inc/admin_settings_queue.js.php:97
+#: classes/critcss-inc/admin_settings_queue.js.php:106
+msgid "Info from criticalcss.com:"
+msgstr "Thông tin từ criticalcss.com: "
+
+#: classes/critcss-inc/admin_settings_queue.js.php:71
+msgid "New"
+msgstr "Mới"
+
+#: classes/critcss-inc/admin_settings_adv.php:39
+msgid "Viewport Size"
+msgstr "Kích thước khung nhìn"
+
+#: classes/critcss-inc/admin_settings_queue.php:87
+msgid "Remove all jobs"
+msgstr "Xóa tất cả công việc"
+
+#: classes/critcss-inc/admin_settings_queue.php:77
+msgid "Finish Date"
+msgstr "Ngày kết thúc"
+
+#: classes/critcss-inc/admin_settings_queue.php:77
+msgid "Creation Date"
+msgstr "Ngày thành lập"
+
+#: classes/critcss-inc/admin_settings_queue.php:77
+msgid "Page Type"
+msgstr "Loại trang"
+
+#: classes/critcss-inc/admin_settings_queue.php:77
+msgid "Page Path"
+msgstr "Đường dẫn trang"
+
+#: classes/critcss-inc/admin_settings_queue.php:77
+msgid "Target Rule"
+msgstr "Quy tắc mục tiêu"
+
+#: classes/critcss-inc/admin_settings_queue.php:69
+msgid "Sometimes an unknown condition can happen. In this case, the job status becomes <span class=\"badge unknown\">U</span> and you may want to ask <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> for help or just delete it."
+msgstr "Đôi khi một tình trạng không xác định có thể xảy ra. Trong trường hợp này, tình trạng công việc trở nên <span class=\"badge unknown\">U</span> và bạn có thể muốn hỏi <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> để được giúp đỡ hoặc chỉ cần xóa nó."
+
+#: classes/critcss-inc/admin_settings_queue.php:68
+msgid "When things go wrong, a job is marked as <span class=\"badge error\">E</span>. You can retry faulty jobs, delete them or get in touch with <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> for assistance."
+msgstr "Khi mọi thứ trở nên tồi tệ, một công việc được đánh dấu là <span class=\"badge error\">E</span>. Bạn có thể thử lại các công việc bị lỗi, xóa chúng hoặc liên lạc với <a href=\"https://criticalcss.com/?aff=1\" target =\"_blank\">criticalcss.com</a> để được hỗ trợ."
+
+#: classes/critcss-inc/admin_settings_queue.php:67
+msgid "As soon as <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> returns a valid critical CSS file, the job is then finished and removed from the queue."
+msgstr "Ngay sau khi <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> trả về một tệp CSS quan trọng hợp lệ, công việc sau đó được hoàn thành và xóa khỏi hàng đợi."
+
+#: classes/critcss-inc/admin_settings_queue.php:70
+msgid "To get more information about jobs statuses, specially the ones with <span class=\"badge error\">E</span> and <span class=\"badge unknown\">U</span> status, hover your mouse in the status badge of that job. This information might be crucial when contacting <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> for assistance."
+msgstr "Để có thêm thông tin về trạng thái công việc, đặc biệt là những người có <span class=\"badge error\">E</span> và <span class=\"badge unknown\">U</span> trạng thái, hãy di chuột vào huy hiệu trạng thái của công việc đó. Thông tin này có thể rất quan trọng khi liên hệ với <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> để được hỗ trợ."
+
+#: classes/critcss-inc/admin_settings_queue.php:66
+msgid "Autoptimize constantly queries the queue for <span class='badge new'>N</span> jobs. When it finds one, gears spins and jobs becomes <span class='badge pending'>P</span> while they are running and <a href='https://criticalcss.com/?aff=1' target='_blank'>criticalcss.com</a> doesn't return a result."
+msgstr "Autoptimize liên tục truy vấn hàng đợi cho <span class='badge new'>N</span> việc làm. Khi nó tìm thấy một, bánh răng quay và công việc trở thành <span class='badge pending'>P</span> trong khi chúng đang chạy và <a href='https://criticalcss.com/?aff=1' target='_blank'>criticalcss.com</a> không trả về kết quả."
+
+#: classes/critcss-inc/admin_settings_queue.php:77
+#: classes/critcss-inc/admin_settings_rules.js.php:49
+msgid "Actions"
+msgstr "Hành động"
+
+#: classes/autoptimizeCriticalCSSCore.php:426
+#: classes/critcss-inc/admin_settings_queue.js.php:72
+#: classes/critcss-inc/admin_settings_queue.js.php:78
+msgid "None"
+msgstr "Không có"
+
+#: classes/critcss-inc/admin_settings_queue.php:71
+msgid "<strong>A word about WordPress cron:</strong> Autoptimize watches the queue by using WordPress Cron (or WP-Cron for short.) It <a href=\"https://www.smashingmagazine.com/2013/10/schedule-events-using-wordpress-cron/#limitations-of-wordpress-cron-and-solutions-to-fix-em\" target=\"_blank\">could be faulty</a> on very light or very heavy loads. If your site receives just a few or thousands visits a day, it might be a good idea to <a href=\"https://developer.wordpress.org/plugins/cron/hooking-wp-cron-into-the-system-task-scheduler/\" target=\"_blank\">turn WP-Cron off and use your system task scheduler</a> to fire it instead."
+msgstr "<strong>Mọi từ về cron WordPress:</strong> Autoptimize xem hàng đợi bằng cách sử dụng WordPress Cron (hoặc viết tắt là WP-Cron.) Nó <a href=\" https://www.smashingmagazine.com/2013/10/schedule-events-using-wordpress-cron/#limitations-of-wordpress-cron-and-solutions-to-fix-em\"target=\"_blank\"> có thể bị lỗi</a> trên tải rất nhẹ hoặc rất nặng. Nếu trang web của bạn chỉ nhận được vài hoặc hàng ngàn lượt truy cập mỗi ngày, có thể bạn nên <a href=\"https://developer.wordpress.org/plugins/cron/hooking-wp-cron-into-the-system-task-scheduler/\" targetk\"_blank\">tắt WP-Cron và sử dụng bộ lập lịch nhiệm vụ hệ thống của bạn</a> để bắn nó thay thế."
+
+#: classes/critcss-inc/admin_settings_queue.php:65
+msgid "When the conditions to create a job are met (i.e. user not logged in, no matching <span class=\"badge manual\">MANUAL</span> rule or CSS files has changed for an <span class=\"badge auto\">AUTO</span> rule), a <span class=\"badge new\">N</span> job is created in the queue."
+msgstr "Khi các điều kiện để tạo công việc được đáp ứng (tức là người dùng không đăng nhập, không có <span class=\"badge manual\">manual</span> quy tắc hoặc các tệp CSS đã thay đổi trong <span class=\"badge auto\">TỰ ĐỘNG</span> quy tắc), một <span class=\"badge new\">N</span> công việc được tạo trong hàng đợi."
+
+#: classes/critcss-inc/admin_settings_queue.php:64
+msgid "The queue operates <strong>automatically, asynchronously and on regular intervals of 10 minutes.</strong> To view updated queue status, refresh this page."
+msgstr "Hàng đợi hoạt động <strong> tự động, không đồng bộ và trong khoảng thời gian thường xuyên 10 phút.</strong> Để xem trạng thái hàng đợi đã cập nhật, hãy làm mới trang này. "
+
+#: classes/critcss-inc/admin_settings_queue.php:62
+msgid "TL;DR:<br /><strong>Queue runs every 10 minutes.</strong> Job statuses are <span class=\"badge new\">N</span> for NEW, <span class=\"badge pending\">P</span> for PENDING, <span class=\"badge error\">E</span> for ERROR and <span class=\"badge unknown\">U</span> for UNKOWN."
+msgstr "TL;DR:<br /><strong>Xếp hàng chạy mỗi 10 phút.</strong> Trạng thái công việc được <span class=\"badge new\">N</span> cho NEW, <span class=\"badge pending\">P</span> cho chờ xử lý, <span class=\"badge error\">E</span> for ERROR và <span class=\"badge unknown\">U</span> cho UNKOWN. "
+
+#: classes/autoptimizeCriticalCSSSettings.php:247
+msgid "Great, Autoptimize will now automatically start creating new critical CSS rules, you should see those appearing below in the next couple of hours."
+msgstr "Tuyệt vời, Autoptimize sẽ tự động tạo các quy tắc CSS mới, quý vị sẽ thấy những điều đó xuất hiện bên dưới trong vài giờ tới."
+
+#: classes/autoptimizeCriticalCSSSettings.php:352
+msgid "Export Settings"
+msgstr "Xuất dữ liệu cài đặt"
+
+#: classes/autoptimizeCriticalCSSSettings.php:353
+msgid "Import Settings"
+msgstr "Nhập dữ liệu cài đặt"
+
+#. translators: the placesholder is for a line of code in wp-config.php.
+#: classes/autoptimizeCriticalCSSSettings.php:294
+msgid "<p>Critical CSS settings cannot be set at network level as critical CSS is specific to each sub-site.</p><p>You can however provide the critical CSS API key for use by all sites by adding this your wp-config.php as %s</p>"
+msgstr "<p> Không thể đặt cài đặt CSS quan trọng ở cấp mạng vì CSS quan trọng dành riêng cho từng trang phụ. </p><p> Tuy nhiên, bạn có thể cung cấp khóa CSS API quan trọng để tất cả các trang web sử dụng bằng cách thêm khóa này vào wp- của bạn config.php dưới dạng%s</p>"
+
+#: classes/autoptimizeCriticalCSSSettings.php:260
+msgid "The critical CSS service has been reported to be down. Although no new rules will be created for now, this does not prevent existing rules from being applied."
+msgstr "Dịch vụ CSS quan trọng đã được báo cáo là ngừng hoạt động. Mặc dù hiện tại sẽ không có quy tắc mới nào được tạo, nhưng điều này không ngăn cản việc áp dụng các quy tắc hiện có."
+
+#: classes/autoptimizeCriticalCSSSettings.php:239
+msgid "It looks like there might be a problem with WordPress cron (task scheduling). Have a look at <a href=\"https://wordpress.org/plugins/autoptimize-criticalcss/faq/\" target=\"_blank\">the FAQ</a> or the info in the Job Queue instructions if all jobs remain in \"N\" status and no rules are created."
+msgstr "Có vẻ như có thể có vấn đề với cron WordPress (lập kế hoạch nhiệm vụ). Hãy xem <a href=\"https://wordpress.org/plugins/autoptimize-criticalcss/faq/\" target=\"_blank\">FaQ</a> hoặc thông tin trong hướng dẫn Job Queue nếu tất cả các công việc vẫn ở trạng thái \"N\" và không có quy tắc nào được tạo ra."
+
+#: classes/critcss-inc/admin_settings_queue.php:48
+msgid "This will delete all jobs, are you sure?"
+msgstr "Điều này sẽ xóa tất cả các công việc, bạn có chắc chắn không?"
+
+#: classes/critcss-inc/admin_settings_queue.php:47
+msgid "Delete all jobs"
+msgstr "Xóa tất cả công việc"
+
+#: classes/critcss-inc/admin_settings_queue.php:43
+msgid "Are you sure you want to delete this job?"
+msgstr "Bạn có chắc chắn muốn xóa công việc này không?"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:84
+#: classes/critcss-inc/admin_settings_queue.js.php:91
+#: classes/critcss-inc/admin_settings_queue.js.php:98
+#: classes/critcss-inc/admin_settings_queue.js.php:107
+#: classes/critcss-inc/admin_settings_queue.php:42
+msgid "Delete Job"
+msgstr "Xóa công việc"
+
+#: classes/critcss-inc/admin_settings_queue.php:38
+msgid "Are you sure you want to retry this job?"
+msgstr "Bạn có chắc chắn muốn thử lại công việc này không?"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:98
+#: classes/critcss-inc/admin_settings_queue.php:37
+msgid "Retry Job"
+msgstr "Thử lại công việc"
+
+#: classes/critcss-inc/admin_settings_queue.php:23
+msgid "Job Queue"
+msgstr "Hàng đợi việc làm"
+
+#: classes/critcss-inc/admin_settings_key.php:52
+msgid "Please enter your criticalcss.com API key here."
+msgstr "Vui lòng nhập khóa API criticalcss.com của bạn tại đây."
+
+#: classes/critcss-inc/admin_settings_key.php:49
+msgid "Your API Key"
+msgstr "Khóa API của bạn"
+
+#: classes/critcss-inc/admin_settings_key.php:28
+msgid "API Key"
+msgstr "Khóa API"
+
+#: classes/critcss-inc/admin_settings_key.php:17
+msgid "API key provided by your host/ WordPress administrator, no need to enter anything here. In case of problems with the API key, contact your host/ WordPress administrator."
+msgstr "Khóa API do máy chủ lưu trữ/quản trị viên WordPress của bạn cung cấp, không cần nhập bất kỳ thứ gì ở đây. Trong trường hợp có vấn đề với khóa API, hãy liên hệ với máy chủ lưu trữ/quản trị viên WordPress của bạn."
+
+#: classes/critcss-inc/admin_settings_queue.php:56
+#: classes/critcss-inc/admin_settings_rules.php:165
+msgid "Click the side arrow to toggle instructions"
+msgstr "Bấm vào mũi tên bên để chuyển đổi hướng dẫn"
+
+#: classes/critcss-inc/admin_settings_key.php:54
+msgid "Enter your <a href=\"https://criticalcss.com/account/api-keys?aff=1\" target=\"_blank\">criticalcss.com</a> API key above. The key is revalidated every time a new job is sent to it.<br />To obtain your API key, go to <a href=\"https://criticalcss.com/account/api-keys?aff=1\" target=\"_blank\">criticalcss.com</a> > Account > API Keys.<br />Requests to generate a critical CSS via the API are priced at £5 per domain per month.<br /><strong>Not sure yet? With the <a href=\"https://criticalcss.com/faq/?aff=1#trial\" target=\"_blank\">30 day money back guarantee</a>, you have nothing to lose!</strong>"
+msgstr "Nhập <a href=\"https://criticalcss.com/account/api-keys?aff=1\"target=\"_blank\">criticalcss.com</a> khóa API ở trên. Khóa được định giá lại mỗi khi một công việc mới được gửi đến nó.<br />Tôi để có được khóa API của bạn, hãy truy cập <a href= \"https://criticalcss.com/account/api-keys?aff=1\" target=\"_blank\">criticalcss.com</a> > Account > API Keys.<br/>Yêu cầu để tạo ra một CSS quan trọng thông qua API có giá £5 mỗi tên miền mỗi tháng.<br /><strong>Không chắc chắn chưa? Với <a href=\"https://criticalcss.com/faq/?aff=1#trial\"target=\"_blank\">30 ngày đảm bảo hoàn tiền</a>, bạn không có gì để mất!</strong>"
+
+#: classes/autoptimizeCriticalCSSSettings.php:175
+msgid "WordPress cron (for task scheduling) seems to be disabled. Have a look at <a href=\"https://wordpress.org/plugins/autoptimize-criticalcss/faq/\" target=\"_blank\">the FAQ</a> or the info in the Job Queue instructions if all jobs remain in \"N\" status and no rules are created."
+msgstr "WordPress cron (để lập kế hoạch nhiệm vụ) dường như bị vô hiệu hóa. Hãy xem <a href=\"https://wordpress.org/plugins/autoptimize-criticalcss/faq/\" target=\"_blank\">the FaQ</a> hoặc thông tin trong hướng dẫn Job Queue nếu tất cả các công việc vẫn ở trạng thái \"N\" và không có quy tắc nào được tạo ra. "
+
+#: classes/autoptimizeCriticalCSSSettings.php:140
+msgid "Could not create the required directory. Make sure the webserver can write to the wp-content directory."
+msgstr "Không thể tạo ra thư mục cần thiết. Hãy chắc chắn rằng webserver có thể viết vào thư mục wp-content."
+
+#: classes/autoptimizeConfig.php:458
+msgid "Also optimize for logged in editors/ administrators?"
+msgstr "Cũng tối ưu hóa cho các tài khoản là biên tập viên/quản trị viên?"
+
+#: classes/autoptimizeConfig.php:460
+msgid "By default Autoptimize is also active for logged on editors/ administrators, uncheck this option if you don't want Autoptimize to optimize when logged in e.g. to use a pagebuilder."
+msgstr "Theo mặc định, Autoptimize cũng sẽ được kích hoạt cho các tài khoản dưới quyền là biên tập viên/quản trị viên, hãy bỏ chọn tùy chọn này nếu quý vị không muốn Autoptimize tối ưu hóa khi các người dùng này đăng nhập, ví dụ: để sử dụng một trình tạo trang (pagebuilder)."
+
+#: classes/autoptimizeCriticalCSSSettings.php:47
+#: classes/autoptimizeCriticalCSSSettings.php:110
+#: classes/critcss-inc/admin_settings_explain.php:15
+msgid "Critical CSS"
+msgstr "CSS quan trọng"
+
+#: classes/autoptimizeConfig.php:336
+msgid "Paste the above the fold CSS here. You can leave this empty when using the automated Critical CSS integration."
+msgstr "Dán CSS trong màn hình đầu tiên vào đây. Bạn có thể để trống phần này khi sử dụng tích hợp CSS quan trọng tự động."
+
+#: classes/autoptimizeConfig.php:347
+msgid "Important: excluded non-minified files are still minified by Autoptimize unless that option under \"misc\" is disabled."
+msgstr "Quan trọng: các tệp không được thu nhỏ bị loại trừ vẫn được Autoptimize thu nhỏ trừ khi tùy chọn đó trong \"misc\" bị tắt."
+
+#: classes/autoptimizeConfig.php:216
+msgid "Enable Autoptimize configuration per site."
+msgstr "Bật cấu hình Autoptimize trên mỗi trang."
+
+#: classes/autoptimizeConfig.php:214
+msgid "Enable site configuration?"
+msgstr "Bật cấu hình trang?"
+
+#: classes/autoptimizeConfig.php:211
+msgid "Multisite Options"
+msgstr "Tùy chọn nhiều trang"
+
+#: classes/autoptimizeConfig.php:96
+msgid "Autoptimize is enabled and configured on a WordPress network level. Please contact your network administrator if you need Autoptimize settings changed."
+msgstr "Autoptimize được bật và cấu hình ở cấp độ mạng WordPress. Vui lòng liên hệ với người quản trị mạng của bạn nếu bạn cần thay đổi thiết đặt Autoptimize."
+
+#. translators: "check the documentation here" will appear in a "a href".
+#: classes/autoptimizeImages.php:1279
+msgid "It seems ShortPixel image optimization is not able to fetch images from your site, %1$scheck the documentation here%2$s for more information"
+msgstr "Có vẻ như tối ưu hóa hình ảnh ShortPixel không thể lấy hình ảnh từ trang web của bạn, %1$scheck tài liệu ở đây%2$s để biết thêm thông tin"
+
+#. translators: link points to shortpixel FAQ.
+#: classes/autoptimizeImages.php:1163
+msgid "Only works for websites and images that are publicly available."
+msgstr "Chỉ hoạt động cho các trang web và hình ảnh có sẵn công khai."
+
+#: classes/autoptimizeExtra.php:536
+msgid "Comma-separated list with full URL's of to to-be-preloaded resources. To be used sparingly!"
+msgstr "Danh sách tách dấu phẩy với URL đầy đủ của các tài nguyên được tải sẵn. Để được sử dụng một cách tiết kiệm!"
+
+#: classes/autoptimizeExtra.php:534
+msgid "Preload specific requests <em>(advanced users)</em>"
+msgstr "Tải trước các yêu cầu cụ thể <em> (người dùng nâng cao)</em>"
+
+#. translators: "display:swap" should remain untranslated, will be shown in
+#. code tags.
+#: classes/autoptimizeExtra.php:509 classes/autoptimizeExtra.php:511
+msgid "includes %1$sdisplay:swap%2$s."
+msgstr "bao gồm %1$sdisplay:swap%2$s."
+
+#: classes/autoptimizeImages.php:1073 classes/autoptimizeImages.php:1094
+msgid "Images"
+msgstr "Hình ảnh"
+
+#. Description of the plugin
+msgid "Makes your site faster by optimizing CSS, JS, Images, Google fonts and more."
+msgstr "Làm cho trang web của quý vị nhanh hơn bằng cách tối ưu hóa CSS, JS, Hình ảnh, phông chữ Google và hơn thế nữa."
+
+#: classes/autoptimizeImages.php:1123
+msgid "Image optimization"
+msgstr "Tối ưu hóa hình ảnh"
+
+#: classes/autoptimizeImages.php:1211
+msgid "Lazy-load images?"
+msgstr "Chờ tải hình ảnh (tải chậm)"
+
+#: classes/autoptimizeImages.php:1213
+msgid "Image lazy-loading will delay the loading of non-visible images to allow the browser to optimally load all resources for the \"above the fold\"-page first."
+msgstr "Tính năng chờ tải hình ảnh (tải chậm) sẽ trì hoãn việc tải tất cả các hình ảnh, mà chỉ  cho phép trình duyệt web ưu tiên tải những hình ảnh cần thiết cho màn hình hiện hữu trước."
+
+#: classes/autoptimizeConfig.php:910
+msgid "JS, CSS  &amp; HTML"
+msgstr "JS, CSS và HTML"
+
+#: classes/autoptimizeConfig.php:448
+msgid "Minify excluded CSS and JS files?"
+msgstr "Nén (minify) các tệp CSS và JS đã bị loại trừ?"
+
+#: classes/autoptimizeConfig.php:450
+msgid "When aggregating JS or CSS, excluded files that are not minified (based on filename) are by default minified by Autoptimize despite being excluded. Uncheck this option if anything breaks despite excluding."
+msgstr "Khi thực hiện kết hợp các tệp JS/CSS. Mặc định Autoptimize sẽ thực hiện nén (minified) tất cả các tệp mặc dù có tệp đã bị loại trừ trước đó. Bỏ chọn tùy chọn này nếu bất kỳ điều gì đó cảm thấy không ổn."
+
+#: classes/autoptimizeImages.php:1219
+msgid "Comma-separated list of to be excluded image classes or filenames."
+msgstr "Danh sách được phân tách bằng dấu phẩy được loại trừ các lớp hình ảnh hoặc tên tệp."
+
+#: classes/autoptimizeImages.php:1217
+msgid "Lazy-load exclusions"
+msgstr "Loại trừ lazy-load"
+
+#: classes/autoptimizeImages.php:1205
+msgid "Load AVIF in supported browsers?"
+msgstr "Tải AVIF trong các trình duyệt được hỗ trợ?"
+
+#: classes/autoptimizeImages.php:1129
+msgid "Optimize images on the fly and serve them from Shortpixel's global CDN."
+msgstr "Tối ưu hóa hình ảnh khi đang bay và phục vụ chúng từ CDN toàn cầu của Shortpixel."
+
+#: classes/autoptimizeImages.php:1124
+msgid "Make your site significantly faster by just ticking a couple of checkboxes to optimize and lazy load your images, WebP and AVIF support included!"
+msgstr "Làm cho trang web của bạn nhanh hơn đáng kể chỉ bằng cách đánh dấu một vài hộp kiểm để tối ưu hóa và lười tải hình ảnh của bạn, bao gồm hỗ trợ WebP và AVIF!"
+
+#. translators: "disable  Jetpack's site accelerator for images" will appear in
+#. a "a href" linking to the jetpack settings page.
+#: classes/autoptimizeImages.php:1117
+msgid "Please %1$sdisable Jetpack's site accelerator for images%2$s to be able to use Autoptomize's advanced image optimization features below."
+msgstr "Vui lòng %1$s cho máy gia tốc trang web của Jetpack cho hình ảnh%2$s để có thể sử dụng các tính năng tối ưu hóa hình ảnh nâng cao của Autoptomize bên dưới."
+
+#: classes/autoptimizeImages.php:1295
+msgid "based on previously fetched data"
+msgstr "dựa trên dữ liệu đã lấy trước đó"
+
+#: classes/autoptimizeImages.php:1293
+msgid "based on status at "
+msgstr "dựa trên trạng thái tại"
+
+#. Translators: the URL added points to the Autopmize Extra settings.
+#: classes/autoptimizeMain.php:706
+msgid "Did you know Autoptimize includes on-the-fly image optimization (with support for WebP and AVIF) and CDN via ShortPixel? Check out the %1$sAutoptimize Image settings%2$s to activate this option."
+msgstr "Bạn có biết Autoptimize bao gồm tối ưu hóa hình ảnh trực tuyến (hỗ trợ WebP và AVIF) và CDN thông qua ShortPixel? Kiểm tra %1$sAutoptimize Image settings%2$s để kích hoạt tùy chọn này."
+
+#. translators: link points Async Javascript settings page.
+#: classes/autoptimizeExtra.php:545
+msgid "You have \"Async JavaScript\" installed, %1$sconfiguration of async javascript is best done there%2$s."
+msgstr "Bạn đã cài đặt \"Async JavaScript\", %1$scấu hình của javascriptsync được thực hiện tốt nhất ở đó%2$s."
+
+#. translators: link points to shortpixel image test page.
+#: classes/autoptimizeImages.php:1199
+msgid "You can %1$stest compression levels here%2$s."
+msgstr "Bạn có thể %1$stest mức nén ở đây%2$s."
+
+#. translators: links points to shortpixel TOS & Privacy Policy.
+#: classes/autoptimizeImages.php:1165
+msgid "Usage of this feature is subject to Shortpixel's %1$sTerms of Use%2$s and %3$sPrivacy policy%4$s."
+msgstr "Việc sử dụng tính năng này phải tuân theo chính sách %1$sĐiều khoản sử dụng%2$s, %3$sQuyền riêng tư và %4$sChính sách bảo mật của Shortpixel."
+
+#. translators: link points to shortpixel FAQ.
+#: classes/autoptimizeImages.php:1162
+msgid "<strong>Questions</strong>? Have a look at the %1$sAutoptimize + ShortPixel FAQ%2$s!"
+msgstr "<strong></strong>? Hãy xem %1$sAutoptimize + ShortPixel FaQ%2$s!"
+
+#: classes/autoptimizeImages.php:1127
+msgid "Optimize Images"
+msgstr "Tối ưu hóa hình ảnh"
+
+#: classes/autoptimizeImages.php:1177
+msgid "Image Optimization quality"
+msgstr "Tối ưu hóa chất lượng ảnh"
+
+#: classes/autoptimizeConfig.php:232
+msgid "Aggregate JS-files?"
+msgstr "Kết hợp các tệp JS?"
+
+#: classes/autoptimizeConfig.php:296
+msgid "Aggregate CSS-files?"
+msgstr "Kết hợp các tệp CSS?"
+
+#: classes/autoptimizeConfig.php:298
+msgid "Aggregate all linked CSS-files? If this option is off, the individual CSS-files will remain in place but will be minified."
+msgstr "Kết hợp tất cả các tệp CSS? Nếu tùy chọn này bị tắt, các tệp CSS vẫn sẽ được nén (minified) một cách riêng lẻ."
+
+#: classes/autoptimizeImages.php:1149
+msgid "Shortpixel status: "
+msgstr "Trạng thái shortpixel: "
+
+#: classes/autoptimizeImages.php:1109
+msgid "The image optimization service is launching, but not yet available for this domain, it should become available in the next couple of days."
+msgstr "Dịch vụ tối ưu hóa hình ảnh đang ra mắt, nhưng chưa có sẵn cho tên miền này, nó sẽ có sẵn trong vài ngày tới. "
+
+#. translators: "log in to check your account" will appear in a "a href".
+#: classes/autoptimizeImages.php:1283
+msgid "Your ShortPixel image optimization and CDN quota are in good shape, %1$slog in to check your account%2$s."
+msgstr "Tối ưu hóa hình ảnh ShortPixel và hạn ngạch CDN của bạn đang ở trong tình trạng tốt, %1$snhật trình để kiểm tra tài khoản của bạn%2$s. "
+
+#. translators: "add more credits" will appear in a "a href".
+#: classes/autoptimizeImages.php:1274
+msgid "Your ShortPixel image optimization and CDN quota was used, %1$sadd more credits%2$s to keep fast serving optimized images on your site"
+msgstr "Tối ưu hóa hình ảnh ShortPixel và hạn ngạch CDN của bạn đã được sử dụng, %1$sthêm tín dụng%2$s để giữ cho việc phục vụ nhanh các hình ảnh được tối ưu hóa trên trang web của bạn"
+
+#. translators: "add more credits" will appear in a "a href".
+#: classes/autoptimizeImages.php:1271
+msgid "Your ShortPixel image optimization and CDN quota is almost used, make sure you %1$sadd more credits%2$s to avoid slowing down your website."
+msgstr "Tối ưu hóa hình ảnh ShortPixel và hạn ngạch CDN của bạn gần như được sử dụng, hãy đảm bảo bạn %1$sthêm nhiều tín dụng hơn%2$s để tránh làm chậm trang web của bạn."
+
+#. translators: "Autoptimize support forum" will appear in a "a href".
+#: classes/autoptimizeImages.php:1102
+msgid "The image optimization service is currently down, image optimization will be skipped until further notice. Check the %1$sAutoptimize support forum%2$s for more info."
+msgstr "Dịch vụ tối ưu hóa hình ảnh hiện đang ngừng hoạt động, tối ưu hóa hình ảnh sẽ bị bỏ qua cho đến khi có thông báo mới. Kiểm tra diễn đàn hỗ trợ %1$sAutoptimize%2$s để biết thêm thông tin."
+
+#. translators: "display:swap" should remain untranslated, will be shown in
+#. code tags.
+#: classes/autoptimizeExtra.php:511
+msgid "Combine and link deferred in head (fonts load late, but are not render-blocking)"
+msgstr "Kết hợp và liên kết hoãn lại trong đầu (phông chữ tải trễ, nhưng không chặn kết xuất)"
+
+#. translators: "display:swap" should remain untranslated, will be shown in
+#. code tags.
+#: classes/autoptimizeExtra.php:509
+msgid "Combine and link in head (fonts load fast but are render-blocking)"
+msgstr "Kết hợp và liên kết trong đầu (phông chữ tải nhanh nhưng đang chặn kết xuất)"
+
+#: classes/autoptimizeExtra.php:494
+msgid "Most of below Extra optimizations require at least one of HTML, JS, CSS or Image autoptimizations being active."
+msgstr "Hầu hết các tối ưu hóa bổ sung dưới đây yêu cầu ít nhất một trong các tự động hóa HTML, JS, CSS hoặc ảnh đang hoạt động."
+
+#. translators: links "autoptimize critical CSS" tab.
+#: classes/autoptimizeConfig.php:330
+msgid "This can be fully automated for different types of pages on the %s tab."
+msgstr "Điều này có thể được tự động hóa hoàn toàn cho các loại trang khác nhau trên tab %s."
+
+#: classes/autoptimizeImages.php:1154
+msgid "For a limited time only, this service is offered free for all Autoptimize users, <b>don't miss the chance to test it</b> and see how much it could improve your site's speed."
+msgstr "Chỉ trong một thời gian giới hạn, dịch vụ này được cung cấp miễn phí cho tất cả người dùng Autoptimize, <b>không bỏ lỡ cơ hội kiểm tra nó</b> và xem nó có thể cải thiện tốc độ trang web của bạn bao nhiêu."
+
+#: autoptimize.php:33
+msgid "Autoptimize requires PHP 5.6 (or higher) to function properly. Please upgrade PHP. The Plugin has been auto-deactivated."
+msgstr "Autoptimize yêu cầu PHP 5.6 (hoặc cao hơn) để hoạt động bình thường. Vui lòng nâng cấp PHP. Plugin đã tự động ngừng hoạt động."
+
+#: classes/autoptimizeExtra.php:555 classes/autoptimizeExtra.php:572
+msgid "Click here to install and activate it."
+msgstr "Nhấn vào đây để cài đặt và kích hoạt."
+
+#: classes/autoptimizeExtra.php:561
+msgid "Optimize YouTube videos"
+msgstr "Tối ưu hóa video YouTube"
+
+#: classes/autoptimizeExtra.php:567
+msgid "Click here to configure it."
+msgstr "Click để tiếp tục."
+
+#: classes/autoptimizePartners.php:81
+msgid "More info"
+msgstr "Chi tiết"
+
+#: classes/autoptimizeExtra.php:565
+msgid "Great, you have WP YouTube Lyte installed."
+msgstr "Tuyệt vời, bạn đã cài đặt WP YouTube Lyte."
+
+#. translators: %s will be replaced by a link to "wp youtube lyte" plugin.
+#: classes/autoptimizeExtra.php:570
+msgid "%s allows you to “lazy load” your videos, by inserting responsive “Lite YouTube Embeds\". "
+msgstr "%s cho phép bạn \"lazy load\" video của mình, bằng cách chèn đáp ứng \"Lite YouTube Embeds\". "
+
+#. translators: %s will be replaced by a link to the "async javascript" plugin.
+#: classes/autoptimizeExtra.php:553
+msgid "Configuration of async javascript is easier and more flexible using the %s plugin."
+msgstr "Cấu hình của javascriptsync dễ dàng và linh hoạt hơn bằng cách sử dụng plugin %s."
+
+#: classes/autoptimizeCLI.php:28
+msgid "Flushing the cache..."
+msgstr "Đang xóa bộ nhớ đệm ..."
+
+#: classes/autoptimizeCLI.php:30
+msgid "Cache flushed."
+msgstr "Đã xóa bộ nhớ đệm"
+
+#: classes/autoptimizeExtra.php:468 classes/autoptimizeExtra.php:488
+msgid "Extra"
+msgstr "Thêm"
+
+#: classes/autoptimizeExtra.php:516
+msgid "Remove emojis"
+msgstr "Loại bỏ emojis"
+
+#: classes/autoptimizeExtra.php:518
+msgid "Removes WordPress' core emojis' inline CSS, inline JavaScript, and an otherwise un-autoptimized JavaScript file."
+msgstr "Loại bỏ mã CSS và JS nội tuyến của WordPress emojis và những file JS liên quan khác"
+
+#: classes/autoptimizeExtra.php:500
+msgid "Extra Auto-Optimizations"
+msgstr "Các tính năng khác"
+
+#: classes/autoptimizeExtra.php:501
+msgid "The following settings can improve your site's performance even more."
+msgstr "Các cài đặt sau có thể cải thiện hiệu suất trang web của bạn nhiều hơn nữa."
+
+#: classes/autoptimizeExtra.php:506
+msgid "Leave as is"
+msgstr "Để nguyên như vậy"
+
+#: classes/autoptimizeExtra.php:522
+msgid "Remove query strings from static resources"
+msgstr "Xóa chuỗi truy vấn"
+
+#: classes/autoptimizeExtra.php:524
+msgid "Removing query strings (or more specifically the <code>ver</code> parameter) will not improve load time, but might improve performance scores."
+msgstr "Xóa chuỗi truy vấn (hay nói chính xác hơn là xóa tham số phiên bản <code>ver</code>) điều này sẽ không cải thiện thời gian tải, nhưng có thể cải thiện điểm hiệu suất."
+
+#: classes/autoptimizeExtra.php:528
+msgid "Preconnect to 3rd party domains <em>(advanced users)</em>"
+msgstr "Kết nối trước đến miền của bên thứ ba <em>(người dùng nâng cao)</em>"
+
+#: classes/autoptimizeExtra.php:504
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: classes/autoptimizeExtra.php:540
+msgid "Async Javascript-files <em>(advanced users)</em>"
+msgstr "Async Javascript-files <em>(người dùng nâng cao)</em>"
+
+#: classes/autoptimizeExtra.php:551
+msgid "Comma-separated list of local or 3rd party JS-files that should loaded with the <code>async</code> flag. JS-files from your own site will be automatically excluded if added here. "
+msgstr "Danh sách các tệp JS địa phương hoặc bên thứ 3 được tách riêng của dấu phẩy nên được tải với cờ <code>sync</code>. Các tệp JS từ trang web của riêng bạn sẽ tự động bị loại trừ nếu được thêm vào đây. "
+
+#: classes/autoptimizeExtra.php:512
+msgid "Combine and load fonts asynchronously with <a href=\"https://github.com/typekit/webfontloader#readme\" target=\"_blank\">webfont.js</a>"
+msgstr "Kết hợp và tải phông chữ không đồng bộ với <a href=\"https://github.com/typekit/webfontloader#readme\" target=\"_blank\">webfont.js</a>"
+
+#: classes/autoptimizeExtra.php:530
+msgid "Add 3rd party domains you want the browser to <a href=\"https://www.keycdn.com/support/preconnect/#primary\" target=\"_blank\">preconnect</a> to, separated by comma's. Make sure to include the correct protocol (HTTP or HTTPS)."
+msgstr "Thêm tên miền của bên thứ 3 mà bạn muốn trình duyệt <a href=\"https://www.keycdn.com/support/preconnect/#primary\" target=\"_blank\">preconnect</a> đến, cách nhau bằng dấu phẩy. Đảm bảo bao gồm giao thức chính xác (HTTP hoặc HTTPS)."
+
+#: classes/autoptimizeConfig.php:266 classes/autoptimizeConfig.php:315
+#: classes/autoptimizeExtra.php:512
+msgid "(deprecated)"
+msgstr "(không dùng nữa)"
+
+#. translators: Kilobytes + timestamp shown.
+#: classes/autoptimizeConfig.php:425
+msgid "%1$s files, totalling %2$s (calculated at %3$s)"
+msgstr "%1$s tệp, tổng cộng %2$s (được tính toán lúc %3$s)"
+
+#: classes/autoptimizeConfig.php:434
+msgid "Misc Options"
+msgstr "Các tùy chọn khác"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://autoptimize.com/"
+msgstr "https://autoptimize.com/"
+
+#: classes/autoptimizeConfig.php:466
+msgid "Also optimize shop cart/ checkout?"
+msgstr "Cũng tối ưu hóa giỏ hàng / thanh toán cửa hàng?"
+
+#. translators: links to the Autoptimize settings page.
+#: classes/autoptimizeToolbar.php:143
+msgid "Your Autoptimize cache might not have been purged successfully, please check on the <a href=%s>Autoptimize settings page</a>."
+msgstr "Bộ đệm ẩn Autoptimize của bạn có thể không được thanh lọc thành công, vui lòng kiểm tra  <a href=%s>Cài đặt Autoptimize trang</a>."
+
+#: classes/autoptimizeConfig.php:512
+msgid "Need help? <a href='https://wordpress.org/plugins/autoptimize/faq/'>Check out the FAQ here</a>."
+msgstr "Cần giúp đỡ? <a href='https://wordpress.org/plugins/autoptimize/faq/'>Xem câu hỏi thường gặp tại đây</a>."
+
+#: classes/autoptimizeConfig.php:468
+msgid "By default Autoptimize is also active on your shop's cart/ checkout, uncheck not to optimize those."
+msgstr "Theo mặc định Autoptimize cũng hoạt động trên giỏ hàng / thanh toán của cửa hàng của bạn, bỏ chọn không tối ưu hóa chúng."
+
+#. Translators: %s is the cache directory location.
+#: classes/autoptimizeMain.php:685
+msgid "Autoptimize cannot write to the cache directory (%s), please fix to enable CSS/ JS optimization!"
+msgstr "Autoptimize không thể ghi vào thư mục bộ nhớ cache (%s), vui lòng sửa để bật tối ưu hóa CSS / JS!"
+
+#: classes/autoptimizeToolbar.php:103
+msgid "Size"
+msgstr "Kích thước"
+
+#: classes/autoptimizeToolbar.php:104
+msgid "Files"
+msgstr "Tập tin"
+
+#. translators: links to the Autoptimize settings page.
+#: classes/autoptimizeToolbar.php:144
+msgid "Dismiss this notice."
+msgstr "Bỏ qua thông báo này "
+
+#: classes/autoptimizeCacheChecker.php:66
+msgid "Autoptimize cache size warning"
+msgstr "Cảnh báo kích thước bộ nhớ đệm từ Autoptimize"
+
+#: classes/autoptimizeCacheChecker.php:67
+msgid "Autoptimize's cache size is getting big, consider purging the cache. Have a look at https://wordpress.org/plugins/autoptimize/faq/ to see how you can keep the cache size under control."
+msgstr "Kích thước bộ nhớ đệm của Autoptimize ngày càng lớn, hãy xem xét việc xóa bộ nhớ đệm. Vui lòng xem https://wordpress.org/plugins/autoptimize/faq/  để biết cách có thể kiểm soát kích thước bộ nhớ đệm."
+
+#: classes/autoptimizePartners.php:38 classes/autoptimizePartners.php:139
+msgid "Optimize More!"
+msgstr "Tùy chỉnh khác"
+
+#: classes/autoptimizePartners.php:143
+msgid "These Autoptimize power-ups and related services will improve your site's performance even more!"
+msgstr "Những power-up Autoptimize và các dịch vụ liên quan này sẽ cải thiện hiệu suất trang web của bạn nhiều hơn nữa!"
+
+#: classes/autoptimizePartners.php:53
+msgid "Have a look at <a href=\"http://optimizingmatters.com/\">optimizingmatters.com</a> for Autoptimize power-ups!"
+msgstr "Hãy xem <a href=\"http://optimizingmatters.com/\">optimizingmatters.com</a> cho autoptimize power-up!"
+
+#: classes/autoptimizeConfig.php:373
+msgid "Enable this if you want HTML comments to remain in the page."
+msgstr "Bật tính năng này nếu quý vị muốn giữ các ghi chú trong HTML."
+
+#: classes/autoptimizeConfig.php:890
+msgid "No items"
+msgstr "Không có mục nào"
+
+#: classes/autoptimizeConfig.php:237
+msgid "Also aggregate inline JS?"
+msgstr "Cũng thực hiện chèn JS vào HTML (nội tuyến JS)?"
+
+#: classes/autoptimizeExtra.php:507
+msgid "Remove Google Fonts"
+msgstr "Vô hiệu hóa Google Fonts"
+
+#: classes/autoptimizeConfig.php:301
+msgid "Also aggregate inline CSS?"
+msgstr "Cũng thực hiện chèn CSS vào HTML (nội tuyến CSS)?"
+
+#: classes/autoptimizeConfig.php:303
+msgid "Check this option for Autoptimize to also aggregate CSS in the HTML."
+msgstr "Đánh dấu vào tùy chọn này để Autoptimize thực hiện chèn CSS vào bên trong mã HTML."
+
+#. translators: the variable contains a date.
+#: classes/autoptimizeConfig.php:896
+msgid "Posted %s"
+msgstr "Đã đăng %s"
+
+#: classes/autoptimizeConfig.php:513
+msgid "Try my other plugins!"
+msgstr "Hãy thử các plugin khác của tôi!"
+
+#: classes/autoptimizeConfig.php:513
+msgid "Happy with Autoptimize?"
+msgstr "Hạnh phúc với Autoptimize?"
+
+#: classes/autoptimizeConfig.php:411
+msgid "Yes"
+msgstr "Có"
+
+#: classes/autoptimizeConfig.php:411
+msgid "No"
+msgstr "Không"
+
+#: classes/autoptimizeConfig.php:487
+#: classes/autoptimizeCriticalCSSSettings.php:333
+#: classes/autoptimizeExtra.php:578 classes/autoptimizeImages.php:1229
+msgid "Save Changes"
+msgstr "Lưu thay đổi"
+
+#: classes/autoptimizeConfig.php:94 classes/autoptimizeConfig.php:198
+#: classes/autoptimizeCriticalCSSSettings.php:114
+#: classes/autoptimizeExtra.php:490 classes/autoptimizeImages.php:1096
+#: classes/autoptimizePartners.php:141
+msgid "Autoptimize Settings"
+msgstr "Cài đặt Autoptimize"
+
+#: classes/autoptimizeConfig.php:367
+msgid "Optimize HTML Code?"
+msgstr "Tối ưu hóa mã HTML?"
+
+#: classes/autoptimizeConfig.php:225
+msgid "JavaScript Options"
+msgstr "Tùy chỉnh JavaScript"
+
+#: classes/autoptimizeConfig.php:228
+msgid "Optimize JavaScript Code?"
+msgstr "Tối ưu hóa mã JavaScript?"
+
+#: classes/autoptimizeConfig.php:242
+msgid "Force JavaScript in &lt;head&gt;?"
+msgstr "Đặt mã JavaScript trong thẻ &lt;head&gt;?"
+
+#: classes/autoptimizeConfig.php:274
+msgid "Exclude scripts from Autoptimize:"
+msgstr "Loại trừ các tập khỏi Autoptimize:"
+
+#: classes/autoptimizeConfig.php:289
+msgid "CSS Options"
+msgstr "Tùy chỉnh CSS"
+
+#: classes/autoptimizeConfig.php:292
+msgid "Optimize CSS Code?"
+msgstr "Tối ưu hóa mã CSS?"
+
+#: classes/autoptimizeMain.php:699
+msgid "Autoptimize has just been updated. Please <strong>test your site now</strong> and adapt Autoptimize config if needed."
+msgstr "Autoptimize vừa được cập nhật. Vui lòng <strong>kiểm tra trang web của bạn ngay bây giờ</strong> và điều chỉnh cấu hình Autoptimize nếu cần."
+
+#: classes/autoptimizeConfig.php:364
+msgid "HTML Options"
+msgstr "Tùy chỉnh HTML"
+
+#: classes/autoptimizeConfig.php:371
+msgid "Keep HTML comments?"
+msgstr "Giữ ghi chú HTML?"
+
+#: classes/autoptimizeConfig.php:339
+msgid "Inline all CSS?"
+msgstr "Chèn CSS vào HTML (nội tuyến CSS)?"
+
+#: classes/autoptimizeConfig.php:344
+msgid "Exclude CSS from Autoptimize:"
+msgstr "Loại trừ CSS khỏi Autoptimize:"
+
+#: classes/autoptimizeConfig.php:347
+msgid "A comma-separated list of CSS you want to exclude from being optimized."
+msgstr "Danh sách CSS được phân tách bằng dấu phẩy (;) mà quý vị muốn loại trừ khi thực hiện tối ưu hóa."
+
+#: classes/autoptimizeConfig.php:379
+msgid "CDN Options"
+msgstr "Tùy chỉnh CDN"
+
+#: classes/autoptimizeConfig.php:382
+msgid "CDN Base URL"
+msgstr "Đường dẫn CDN (URL)"
+
+#: classes/autoptimizeConfig.php:406
+msgid "Cache folder"
+msgstr "Thư mục bộ nhớ đệm"
+
+#: classes/autoptimizeConfig.php:403
+msgid "Cache Info"
+msgstr "Thông tin bộ nhớ đệm"
+
+#: classes/autoptimizeConfig.php:439
+msgid "By default files saved are static css/js, uncheck this option if your webserver doesn't properly handle the compression and expiry."
+msgstr "Mặc định, các tệp css/js được lưu trữ ở trạng thái tĩnh, hãy bỏ chọn tùy chọn này nếu máy chủ web của quý vị không xử lý nén đúng cách và hết hạn."
+
+#: classes/autoptimizeConfig.php:488
+msgid "Save Changes and Empty Cache"
+msgstr "Lưu các thay đổi và làm trống bộ nhớ đệm"
+
+#: classes/autoptimizeConfig.php:679 classes/autoptimizeConfig.php:682
+#: classes/autoptimizeConfig.php:685
+msgid "Autoptimize Options"
+msgstr "Tùy chỉnh Autoptimize"
+
+#: classes/autoptimizeConfig.php:746 classes/autoptimizeConfig.php:752
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: classes/autoptimizeConfig.php:410
+msgid "Can we write?"
+msgstr "Có thể tạo tập tin?"
+
+#: classes/autoptimizeConfig.php:414
+msgid "Cached styles and scripts"
+msgstr "CSS và JS được lưu trong bộ nhớ đệm"
+
+#: classes/autoptimizeConfig.php:306
+msgid "Generate data: URIs for images?"
+msgstr "Tạo dữ liệu: URI cho hình ảnh?"
+
+#: classes/autoptimizeConfig.php:308
+msgid "Enable this to include small background-images in the CSS itself instead of as separate downloads."
+msgstr "Bật tính năng này thì các ảnh với thuộc tính background-images trong CSS sẽ được thay đổi thành URIs image."
+
+#: classes/autoptimizeConfig.php:437
+msgid "Save aggregated script/css as static files?"
+msgstr "Lưu các tập tin JS/CSS đã được kết hợp ở trạng thái tĩnh "
+
+#: classes/autoptimizeConfig.php:314
+msgid "Look for styles only in &lt;head&gt;?"
+msgstr "Chỉ tìm kiếm CSS trong thẻ &lt;head&gt;?"
+
+#: classes/autoptimizeConfig.php:265
+msgid "Look for scripts only in &lt;head&gt;?"
+msgstr "Chỉ tìm kiếm JS trong thẻ &lt;head&gt;?"
+
+#. Plugin Name of the plugin
+#: classes/autoptimizeCacheChecker.php:110 classes/autoptimizeConfig.php:676
+#: classes/autoptimizeToolbar.php:82
+msgid "Autoptimize"
+msgstr "Autoptimize"
+
+#: classes/autoptimizeConfig.php:528
+msgid "Do not donate for this plugin!"
+msgstr "Đừng quyên góp cho plugin này! "
+
+#: classes/autoptimizeConfig.php:319
+msgid "Don't autoptimize CSS outside the head-section. If the cache gets big, you might want to enable this."
+msgstr "Đừng tự động CSS bên ngoài phần đầu. Nếu bộ nhớ cache trở nên lớn, bạn có thể muốn bật điều này."
+
+#. Author of the plugin
+msgid "Frank Goossens (futtta)"
+msgstr "Frank Goossens (futtta)"
+
+#: classes/autoptimizeConfig.php:247
+msgid "Add try-catch wrapping?"
+msgstr "Thêm gói try-catch?"
+
+#: classes/autoptimizeConfig.php:270
+msgid "Mostly useful in combination with previous option when using jQuery-based templates, but might help keeping cache size under control."
+msgstr "Chủ yếu hữu ích kết hợp với tùy chọn trước đó khi sử dụng các mẫu dựa trên jQuery, nhưng có thể giúp kiểm soát kích thước bộ nhớ cache."
+
+#: classes/autoptimizeConfig.php:326
+msgid "Inline \"above the fold CSS\" while loading the main autoptimized CSS only after page load. <a href=\"https://wordpress.org/plugins/autoptimize/faq/\" target=\"_blank\">Check the FAQ</a> for more info."
+msgstr "Nội tuyến \"phía trên CSS gấp\" trong khi tải CSS tự động chính chỉ sau khi tải trang. <a href=\"https://wordpress.org/plugins/autoptimize/faq/\" target=\"_blank\">Quản lý câu hỏi thường gặp</a> để biết thêm thông tin."

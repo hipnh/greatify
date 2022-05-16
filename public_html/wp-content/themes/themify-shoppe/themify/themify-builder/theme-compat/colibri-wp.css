@@ -1,0 +1,17 @@
+body.tb_hide_title .h-navigation-padding{
+	position:absolute;
+	clip:rect(1px, 1px, 1px, 1px);
+	left:-999em
+}
+body.tb_fullwidth .h-section.h-section-global-spacing{
+	padding:0
+}
+body.tb_fullwidth .h-section.h-section-global-spacing .h-section-boxed-container{
+	max-width:none;
+    width:auto;
+    margin:0;
+	padding:0
+}
+html.colibri-wp-theme body.tb_fullwidth .content.page-content {
+	box-shadow:none
+}

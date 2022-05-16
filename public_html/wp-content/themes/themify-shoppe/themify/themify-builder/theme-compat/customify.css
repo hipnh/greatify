@@ -1,0 +1,25 @@
+body.tb_fullwidth #sidebar-primary,
+body.tb_hide_title .page-titlebar{
+	position:absolute;
+	clip:rect(1px, 1px, 1px, 1px);
+	left:-999em
+}
+body.tb_fullwidth .site-content .content-area,
+body.tb_fullwidth .site-content .customify-container{
+    max-width:none;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+	padding:0
+}
+body.tb_fullwidth .site-content .content-area .content-inner{
+    padding:0
+}
+body.tb_fullwidth .site-content #main{
+	flex:1;
+	border:none;
+    padding:0
+}
+body.tb_fullwidth .site-content .customify-grid{
+	margin:0
+}

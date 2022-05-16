@@ -1,0 +1,18 @@
+body.tb_hide_title .entry-header{
+	position:absolute;
+	clip:rect(1px, 1px, 1px, 1px)
+}
+body:not(.page-layout-sidebar-right).tb_fullwidth  .site-content #primary,
+body.tb_fullwidth .site-content .content-area{
+	max-width:none;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+	padding:0
+}
+body.tb_fullwidth .site-content .inner-wrap,
+body.tb_fullwidth .site-content .content-area .entry-content{
+	max-width:none;
+	margin:0;
+	padding:0
+}

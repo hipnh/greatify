@@ -1,0 +1,13 @@
+body.tb_fullwidth #secondary,
+body.tb_hide_title .entry-header{
+	position:absolute;
+	clip:rect(1px, 1px, 1px, 1px);
+	left:-999em
+}
+body.tb_fullwidth .inner-wrap #primary,
+body.tb_fullwidth #main > .inner-wrap{
+    max-width:none;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;	
+}

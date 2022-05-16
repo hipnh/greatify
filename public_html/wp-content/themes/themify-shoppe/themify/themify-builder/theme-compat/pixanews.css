@@ -1,0 +1,23 @@
+body.tb_hide_title #secondary,
+body.tb_hide_title .entry-header{
+	position:absolute;
+	clip:rect(1px, 1px, 1px, 1px);
+	left:-999em
+}
+body.tb_fullwidth #primary{
+	max-width:none;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+	flex:1
+}
+body.tb_fullwidth #masthead-mobile + .container{
+	max-width:none;
+    width:auto;
+	margin:0;
+	padding:0;
+}
+body.tb_fullwidth #masthead-mobile + .container > .row{
+	margin:0;
+	--bs-gutter-x:0
+}

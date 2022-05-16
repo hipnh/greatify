@@ -1,0 +1,2 @@
+2022-04-30T15:06:02+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/litespeed-cache/src/htaccess.cls.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/litespeed-cache/autoload.php on line 35
+

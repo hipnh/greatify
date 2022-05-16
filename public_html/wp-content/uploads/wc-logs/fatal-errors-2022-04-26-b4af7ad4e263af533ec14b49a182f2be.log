@@ -1,0 +1,49 @@
+2022-04-26T02:11:24+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-metabox/includes/themify-user-fields.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-metabox/includes/themify-metabox-core.php on line 58
+
+2022-04-26T02:11:24+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-metabox/includes/themify-user-fields.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-metabox/includes/themify-metabox-core.php on line 58
+
+2022-04-26T02:11:59+00:00 CRITICAL Uncaught Error: Class 'MailPoetVendor\Sudzy\ValidModel' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Models/Model.php:136
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/all-in-one-seo-pack/vendor/composer/ClassLoader.php(571): include()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/all-in-one-seo-pack/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/mrwyunkah...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('MailPoet\\Models...')
+#3 /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Models/ScheduledTask.php(24): spl_autoload_call('MailPoet\\Models...')
+#4 /home/mrwyunkahosting/public_html/wp-content/plugins/all-in-one-seo-pack/vendor/composer/ClassLoader.php(571): include('/home/mrwyunkah...')
+#5 /home/mrwyunkahosting/public_html/wp-content/plugins/all-in-one-seo-pack/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/mrwyunkah...')
+#6 [internal function]: Com in /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Models/Model.php on line 136
+
+2022-04-26T02:11:59+00:00 CRITICAL Uncaught Error: Class 'AIOSEO\Plugin\Common\Breadcrumbs\Widget' not found in /home/mrwyunkahosting/public_html/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-includes/widgets.php(115): WP_Widget_Factory->register('AIOSEO\\Plugin\\C...')
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/all-in-one-seo-pack/app/Common/Breadcrumbs/Breadcrumbs.php(632): register_widget('AIOSEO\\Plugin\\C...')
+#2 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): AIOSEO\Plugin\Common\Breadcrumbs\Breadcrumbs->registerWidget('')
+#3 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/mrwyunkahosting/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/mrwyunkahosting/public_html/wp-includes/widgets.php(1854): do_action('widgets_init')
+#6 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): wp_widgets_init('')
+#7 /home/mrwyunkahosting/public_html/wp-includes/cl in /home/mrwyunkahosting/public_html/wp-includes/class-wp-widget-factory.php on line 61
+
+2022-04-26T02:12:06+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Features/OnboardingTasks/Task.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-04-26T02:12:17+00:00 CRITICAL Uncaught Error: Class 'MC4WP_Contact_Form_7_Integration' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/mailchimp-for-wp/includes/integrations/class-integration-fixture.php:67
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/mailchimp-for-wp/includes/integrations/class-integration-fixture.php(82): MC4WP_Integration_Fixture->load()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/mailchimp-for-wp/includes/integrations/class-integration-manager.php(118): MC4WP_Integration_Fixture->__call('is_installed', Array)
+#2 [internal function]: MC4WP_Integration_Manager->is_installed(Object(MC4WP_Integration_Fixture))
+#3 /home/mrwyunkahosting/public_html/wp-content/plugins/mailchimp-for-wp/includes/integrations/class-integration-manager.php(138): array_filter(Array, Array)
+#4 /home/mrwyunkahosting/public_html/wp-content/plugins/mailchimp-for-wp/includes/integrations/class-integration-manager.php(44): MC4WP_Integration_Manager->get_enabled_integrations()
+#5 /home/mrwyunkahostin in /home/mrwyunkahosting/public_html/wp-content/plugins/mailchimp-for-wp/includes/integrations/class-integration-fixture.php on line 67
+
+2022-04-26T02:12:17+00:00 CRITICAL Uncaught Error: Class 'MC4WP_WPForms_Integration' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/mailchimp-for-wp/includes/integrations/class-integration-fixture.php:67
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/mailchimp-for-wp/includes/integrations/class-integration-fixture.php(82): MC4WP_Integration_Fixture->load()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/mailchimp-for-wp/includes/integrations/class-integration-manager.php(118): MC4WP_Integration_Fixture->__call('is_installed', Array)
+#2 [internal function]: MC4WP_Integration_Manager->is_installed(Object(MC4WP_Integration_Fixture))
+#3 /home/mrwyunkahosting/public_html/wp-content/plugins/mailchimp-for-wp/includes/integrations/class-integration-manager.php(138): array_filter(Array, Array)
+#4 /home/mrwyunkahosting/public_html/wp-content/plugins/mailchimp-for-wp/includes/integrations/class-integration-manager.php(44): MC4WP_Integration_Manager->get_enabled_integrations()
+#5 /home/mrwyunkahosting/publi in /home/mrwyunkahosting/public_html/wp-content/plugins/mailchimp-for-wp/includes/integrations/class-integration-fixture.php on line 67
+
+2022-04-26T02:17:28+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/litespeed-cache/src/activation.cls.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/litespeed-cache/autoload.php on line 35
+
+2022-04-26T02:34:39+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-includes/blocks/navigation/view.min.asset.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-includes/blocks.php on line 113
+

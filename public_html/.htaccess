@@ -1,0 +1,230 @@
+# BEGIN LSCACHE
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+<IfModule LiteSpeed>
+RewriteEngine on
+CacheLookup on
+RewriteRule .* - [E=Cache-Control:no-autoflush]
+RewriteRule \.litespeed_conf\.dat - [F,L]
+
+### marker MOBILE start ###
+RewriteCond %{HTTP_USER_AGENT} Mobile|Android|Silk/|Kindle|BlackBerry|Opera\ Mini|Opera\ Mobi|Chrome|Safari|Firefox|Puffin|Yandex|IE|Edge [NC]
+RewriteRule .* - [E=Cache-Control:vary=%{ENV:LSCACHE_VARY_VALUE}+ismobile]
+### marker MOBILE end ###
+
+### marker CACHE RESOURCE start ###
+RewriteRule wp-content/.*/[^/]*(responsive|css|js|dynamic|loader|fonts)\.php - [E=cache-control:max-age=3600]
+### marker CACHE RESOURCE end ###
+
+### marker FAVICON start ###
+RewriteRule favicon\.ico$ - [E=cache-control:max-age=86400]
+### marker FAVICON end ###
+
+### marker CORS start ###
+<FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font\.css)$">
+<IfModule mod_headers.c>
+Header set Access-Control-Allow-Origin "*"
+</IfModule>
+</FilesMatch>
+### marker CORS end ###
+
+### marker WEBP start ###
+RewriteCond %{HTTP_ACCEPT} "image/webp" [or]
+RewriteCond %{HTTP_USER_AGENT} "Page Speed"
+RewriteRule .* - [E=Cache-Control:vary=%{ENV:LSCACHE_VARY_VALUE}+webp]
+RewriteCond %{HTTP_USER_AGENT} iPhone.*Version/(\d{2}).*Safari
+RewriteCond %1 >13
+RewriteRule .* - [E=Cache-Control:vary=%{ENV:LSCACHE_VARY_VALUE}+webp]
+### marker WEBP end ###
+
+### marker DROPQS start ###
+CacheKeyModify -qs:fbclid
+CacheKeyModify -qs:gclid
+CacheKeyModify -qs:utm*
+CacheKeyModify -qs:_ga
+### marker DROPQS end ###
+
+</IfModule>
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+# END LSCACHE
+# BEGIN NON_LSCACHE
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+### marker BROWSER CACHE start ###
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType application/pdf A31557600
+ExpiresByType image/x-icon A31557600
+ExpiresByType image/vnd.microsoft.icon A31557600
+ExpiresByType image/svg+xml A31557600
+
+ExpiresByType image/jpg A31557600
+ExpiresByType image/jpeg A31557600
+ExpiresByType image/png A31557600
+ExpiresByType image/gif A31557600
+ExpiresByType image/webp A31557600
+
+ExpiresByType video/ogg A31557600
+ExpiresByType audio/ogg A31557600
+ExpiresByType video/mp4 A31557600
+ExpiresByType video/webm A31557600
+
+ExpiresByType text/css A31557600
+ExpiresByType text/javascript A31557600
+ExpiresByType application/javascript A31557600
+ExpiresByType application/x-javascript A31557600
+
+ExpiresByType application/x-font-ttf A31557600
+ExpiresByType application/x-font-woff A31557600
+ExpiresByType application/font-woff A31557600
+ExpiresByType application/font-woff2 A31557600
+ExpiresByType application/vnd.ms-fontobject A31557600
+ExpiresByType font/ttf A31557600
+ExpiresByType font/otf A31557600
+ExpiresByType font/woff A31557600
+ExpiresByType font/woff2 A31557600
+
+</IfModule>
+### marker BROWSER CACHE end ###
+
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+# END NON_LSCACHE
+#BEGIN_GZIP_OUTPUT_BY_THEMIFY
+	    <IfModule mod_rewrite.c>
+		    <Files *.js.gz>
+			AddType "text/javascript" .gz
+			AddEncoding gzip .gz
+		    </Files>
+		    <Files *.css.gz>
+			AddType "text/css" .gz
+			AddEncoding gzip .gz
+		    </Files>
+		    <Files *.svg.gz>
+			AddType "image/svg+xml" .gz
+			AddEncoding gzip .gz
+		    </Files>
+		    <Files *.json.gz>
+			AddType "application/json" .gz
+			AddEncoding gzip .gz
+		    </Files>
+		    # Serve pre-compressed gzip assets
+		    RewriteCond %{HTTP:Accept-Encoding} gzip
+		    RewriteCond %{REQUEST_FILENAME}.gz -f
+		    RewriteRule ^(.*)$ $1.gz [QSA,L]
+	    </IfModule>
+	    #END_GZIP_OUTPUT_BY_THEMIFY
+	    
+# BEGIN WordPress
+# Các nội dung nằm giữa "BEGIN WordPress" và "END WordPress" được tạo ra tự động, và chỉ nên được thay đổi thông qua các filter của WordPress. Mọi thay đổi tới thành phần này có thể sẽ bị mất và ghi đè.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+php_value memory_limit 1024M
+#BEGIN_GZIP_COMPRESSION_BY_THEMIFY
+                <IfModule mod_deflate.c>
+		    #add content typing
+		    AddType application/x-gzip .gz .tgz
+		    AddEncoding x-gzip .gz .tgz
+		    # Insert filters
+		    AddOutputFilterByType DEFLATE text/plain
+		    AddOutputFilterByType DEFLATE text/html
+		    AddOutputFilterByType DEFLATE text/xml
+		    AddOutputFilterByType DEFLATE text/css
+		    AddOutputFilterByType DEFLATE application/xml
+		    AddOutputFilterByType DEFLATE application/xhtml+xml
+		    AddOutputFilterByType DEFLATE application/rss+xml
+		    AddOutputFilterByType DEFLATE application/javascript
+		    AddOutputFilterByType DEFLATE application/x-javascript
+		    AddOutputFilterByType DEFLATE application/x-httpd-php
+		    AddOutputFilterByType DEFLATE application/x-httpd-fastphp
+		    AddOutputFilterByType DEFLATE image/svg+xml
+		    AddOutputFilterByType DEFLATE image/svg
+		    # Drop problematic browsers
+		    BrowserMatch ^Mozilla/4 gzip-only-text/html
+		    BrowserMatch ^Mozilla/4\.0[678] no-gzip
+		    BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+		    <IfModule mod_headers.c>
+			    # Make sure proxies don't deliver the wrong content
+			    Header append Vary User-Agent env=!dont-vary
+		    </IfModule>
+		</IfModule>
+                # END GZIP COMPRESSION
+		## EXPIRES CACHING ##
+		<IfModule mod_expires.c>
+			ExpiresActive On
+			ExpiresByType image/jpg "access plus 4 months"
+			ExpiresByType image/jpeg "access plus 4 months"
+			ExpiresByType image/gif "access plus 4 months"
+			ExpiresByType image/png "access plus 4 months"
+			ExpiresByType image/webp "access plus 4 months"
+			ExpiresByType image/apng "access plus 4 months"
+			ExpiresByType image/svg+xml "access plus 4 months"
+			ExpiresByType image/svg "access plus 4 months"
+			ExpiresByType text/css "access plus 4 months"
+			ExpiresByType text/html "access plus 1 week"
+			ExpiresByType text/plain "access plus 1 week"
+			ExpiresByType text/x-component "access plus 4 months"
+			ExpiresByType text/javascript "access plus 4 months"
+			ExpiresByType text/x-javascript "access plus 4 months"
+			ExpiresByType application/pdf "access plus 4 months"
+			ExpiresByType application/javascript "access plus 4 months"
+			ExpiresByType application/x-javascript "access plus 4 months"
+			ExpiresByType application/x-shockwave-flash "access plus 4 months"
+			ExpiresByType image/x-icon "access plus 1 year"
+			ExpiresByType application/json "access plus 1 week"
+			ExpiresByType application/ld+json "access plus 1 week"
+			ExpiresByType application/xml "access plus 0 seconds"
+			ExpiresByType text/xml "access plus 0 seconds"
+			ExpiresByType application/x-web-app-manifest+json "access plus 0 seconds"
+			ExpiresByType text/cache-manifest "access plus 0 seconds"
+			ExpiresByType audio/ogg "access plus 4 months"
+			ExpiresByType video/mp4 "access plus 4 months"
+			ExpiresByType video/ogg "access plus 4 months"
+			ExpiresByType video/webm "access plus 4 months"
+			ExpiresByType application/atom+xml "access plus 1 day"
+			ExpiresByType application/rss+xml "access plus 1 day"
+			ExpiresByType application/font-woff "access plus 6 months"
+			ExpiresByType application/vnd.ms-fontobject "access plus 6 months"
+			ExpiresByType application/x-font-ttf "access plus 6 months"
+			ExpiresByType font/opentype "access plus 6 months"
+			ExpiresByType font/woff "access plus 6 months"
+			ExpiresByType font/woff2 "access plus 6 months"
+			ExpiresByType application/font-woff2 "access plus 6 months"
+		</IfModule>
+		#Alternative caching using Apache`s "mod_headers", if it`s installed.
+		#Caching of common files - ENABLED
+		<IfModule mod_headers.c>
+		    <FilesMatch "\.(jpg|jpeg|gif|png|svg|js|css|mp3|ogg|mpe?g|avi|zip|gz|rar|swf|woff|woff2|eot|ttf|pdf|mp4|doc|html|flv|ico|xml|txt|ogv|svgz|otf|rss|atom|tgz|xls|ppt|tar|mid|midi|wav|bmp|rtf)$">
+			    Header set Cache-Control "max-age=10512000, public"
+		    </FilesMatch>
+		    # Set Keep Alive Header
+		    Header set Connection keep-alive
+		</IfModule>
+
+		<IfModule mod_gzip.c>
+		  mod_gzip_on Yes
+		  mod_gzip_dechunk Yes
+		  mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
+		  mod_gzip_item_include handler ^cgi-script$
+		  mod_gzip_item_include mime ^text/.*
+		  mod_gzip_item_include mime ^application/x-javascript.*
+		  mod_gzip_item_exclude mime ^image/.*
+		  mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+		</IfModule>
+
+		# If your server don`t support ETags deactivate with "None" (and remove header)
+		<IfModule mod_expires.c>
+		  <IfModule mod_headers.c>
+			Header unset ETag
+		  </IfModule>
+		  FileETag None
+		</IfModule>
+		## EXPIRES CACHING ##
+		#END_GZIP_COMPRESSION_BY_THEMIFY

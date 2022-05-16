@@ -1,0 +1,14 @@
+body.tb_fullwidth #secondary,
+body.tb_hide_title .page-header{
+	position:absolute;
+	clip:rect(1px, 1px, 1px, 1px);
+	left:-999em
+}
+body.tb_fullwidth .site-main > .si-container,
+body.tb_fullwidth #main>.si-container #primary{
+	max-width:none;
+    width:auto;
+    margin:0;
+	padding:0;
+	float:none
+}

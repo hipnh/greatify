@@ -1,0 +1,200 @@
+2022-05-02T02:32:12+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Conditionals\XMLRPC_Conditional' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php:1882
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getXMLRPCConditionalService()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(230): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get('Yoast\\WP\\SEO\\Co...')
+#2 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\In...')
+#3 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_integrations('')
+#4 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /home/mrwyunkahosting/public_html/wp-includes/plugin in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php on line 1882
+
+2022-05-02T02:32:12+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Routes\Indexables_Head_Route' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php:228
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(212): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\Ro...')
+#1 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_routes(Object(WP_REST_Server))
+#2 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mrwyunkahosting/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home/mrwyunkahosting/public_html/wp-includes/rest-api.php(553): do_action('rest_api_init', Object(WP_REST_Server))
+#5 /home/mrwyunkahosting/public_html/wp-includes/rest-api.php(379): rest_get_server()
+#6 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#7 /home/mrwyunkahosting/public_html/wp-includes/cl in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php on line 228
+
+2022-05-02T02:46:22+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-admin/includes/class-wp-list-table-compat.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-admin/includes/admin.php on line 67
+
+2022-05-02T02:52:19+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Routes\Abstract_Indexation_Route' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/routes/indexing-route.php:28
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/all-in-one-seo-pack/vendor/composer/ClassLoader.php(571): include()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/all-in-one-seo-pack/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/mrwyunkah...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Yoast\\WP\\SEO\\Ro...')
+#3 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(228): spl_autoload_call('Yoast\\WP\\SEO\\Ro...')
+#4 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(212): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\Ro...')
+#5 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_routes(Object(WP_REST_Server))
+#6 /home/mrwyunkahosting/p in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/routes/indexing-route.php on line 28
+
+2022-05-02T02:52:19+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Routes\Abstract_Indexation_Route' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/routes/indexing-route.php:28
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/all-in-one-seo-pack/vendor/composer/ClassLoader.php(571): include()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/all-in-one-seo-pack/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/mrwyunkah...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Yoast\\WP\\SEO\\Ro...')
+#3 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(228): spl_autoload_call('Yoast\\WP\\SEO\\Ro...')
+#4 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(212): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\Ro...')
+#5 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_routes(Object(WP_REST_Server))
+#6 /home/mrwyunkahosting/p in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/routes/indexing-route.php on line 28
+
+2022-05-02T02:53:15+00:00 CRITICAL Uncaught Error: Class 'WPSEO_Local_Storelocator' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wpseo-local/local-seo.php:131
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): wpseo_local_seo_init('')
+#1 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/mrwyunkahosting/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/mrwyunkahosting/public_html/wp-settings.php(587): do_action('init')
+#4 /home/mrwyunkahosting/public_html/wp-config.php(1324): require_once('/home/mrwyunkah...')
+#5 /home/mrwyunkahosting/public_html/wp-load.php(50): require_once('/home/mrwyunkah...')
+#6 /home/mrwyunkahosting/public_html/wp-blog-header.php(13): require_once('/home/mrwyunkah...')
+#7 /home/mrwyunkahosting/public_html/index.php(17): require('/home/mrwyunkah...')
+#8 {main}
+  thrown in /home/mrwyunkahosting/public_html/wp-content/plugins/wpseo-local/local-seo.php on line 131
+
+2022-05-02T02:57:39+00:00 CRITICAL Uncaught Error: Class 'MailPoet\Cron\Workers\Beamer' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Cron/Triggers/WordPress.php:218
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Cron/Triggers/WordPress.php(80): MailPoet\Cron\Triggers\WordPress->checkExecutionRequirements()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Cron/CronTrigger.php(52): MailPoet\Cron\Triggers\WordPress->run()
+#2 /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Config/Initializer.php(356): MailPoet\Cron\CronTrigger->init()
+#3 /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Config/Initializer.php(275): MailPoet\Config\Initializer->setupCronTrigger()
+#4 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): MailPoet\Config\Initializer->initialize('')
+#5 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /home/mrwyunkahosting/public_html/wp-inc in /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Cron/Triggers/WordPress.php on line 218
+
+2022-05-02T02:57:54+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/google-listings-and-ads/vendor/google/common-protos/metadata/Api/Http.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-02T02:58:40+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-utils.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-includes/template.php on line 770
+
+2022-05-02T02:58:47+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-includes/Requests/Response.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-includes/class-requests.php on line 146
+
+2022-05-02T02:58:47+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-includes/Requests/Response.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-includes/class-requests.php on line 146
+
+2022-05-02T02:58:47+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-includes/Requests/Response.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-includes/class-requests.php on line 146
+
+2022-05-02T02:58:47+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-includes/Requests/Response.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-includes/class-requests.php on line 146
+
+2022-05-02T02:59:54+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Conditionals\The_Events_Calendar_Conditional' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php:1732
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getTheEventsCalendarConditionalService()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(230): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get('Yoast\\WP\\SEO\\Co...')
+#2 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\In...')
+#3 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_integrations('')
+#4 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /home/mrwyunkahosting/public in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php on line 1732
+
+2022-05-02T03:00:16+00:00 CRITICAL Uncaught Error: Class 'Themify_Builder_Component_SubRow' not found in /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-builder/includes/components/column.php:117
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-builder/includes/components/row.php(344): Themify_Builder_Component_Column::template(4, Array, 0, Array, 456, NULL, true)
+#1 /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-builder/templates/builder-output.php(15): Themify_Builder_Component_Row::template(4, Array, 456, true)
+#2 /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-builder/includes/components/base.php(1144): include('/home/mrwyunkah...')
+#3 /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-builder/includes/components/base.php(1121): Themify_Builder_Component_Base::get_template('builder-output....', Array, '', '')
+#4 /home/mrwyunkahosting/public_html/wp-conten in /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-builder/includes/components/column.php on line 117
+
+2022-05-02T03:00:24+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/google-listings-and-ads/vendor/google/protobuf/src/Google/Protobuf/Internal/RepeatedFieldIter.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-02T03:00:24+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/google-listings-and-ads/vendor/google/protobuf/src/Google/Protobuf/Internal/DescriptorPool.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-02T03:02:20+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/cache/class-themify-cache.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-config.php on line 127
+
+2022-05-02T03:02:42+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/litespeed-cache/src/htaccess.cls.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/litespeed-cache/autoload.php on line 35
+
+2022-05-02T03:02:48+00:00 CRITICAL Uncaught Error: Class 'AIOSEO\Plugin\Common\Api\Wizard' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/all-in-one-seo-pack/app/Lite/Api/Wizard.php:16
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/all-in-one-seo-pack/vendor/composer/ClassLoader.php(571): include()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/all-in-one-seo-pack/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/mrwyunkah...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('AIOSEO\\Plugin\\L...')
+#3 [internal function]: spl_autoload_call('AIOSEO\\Plugin\\L...')
+#4 /home/mrwyunkahosting/public_html/wp-content/plugins/all-in-one-seo-pack/app/Common/Api/Api.php(154): class_exists('AIOSEO\\Plugin\\L...')
+#5 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): AIOSEO\Plugin\Common\Api\Api->registerRoutes(Object(WP_REST_Server))
+#6 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 / in /home/mrwyunkahosting/public_html/wp-content/plugins/all-in-one-seo-pack/app/Lite/Api/Wizard.php on line 16
+
+2022-05-02T03:07:38+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Conditionals\Get_Request_Conditional' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php:1572
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getGetRequestConditionalService()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(230): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get('Yoast\\WP\\SEO\\Co...')
+#2 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\In...')
+#3 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_integrations('')
+#4 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /home/mrwyunkahosting/public_html/wp-includ in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php on line 1572
+
+2022-05-02T03:07:46+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/ExportableInterface.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-02T03:12:17+00:00 CRITICAL require(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/plugins/google-listings-and-ads/src/API/Site/Controllers/EmptySchemaPropertiesTrait.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2022-05-02T07:10:40+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Conditionals\Third_Party\WPML_Conditional' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php:1772
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getWPMLConditionalService()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(230): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get('Yoast\\WP\\SEO\\Co...')
+#2 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\In...')
+#3 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_integrations('')
+#4 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /home/mrwyunkahosting/public_html/wp-include in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php on line 1772
+
+2022-05-02T07:10:40+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Conditionals\Third_Party\WPML_Conditional' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php:1772
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getWPMLConditionalService()
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(230): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get('Yoast\\WP\\SEO\\Co...')
+#2 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\In...')
+#3 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_integrations('')
+#4 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /home/mrwyunkahosting/public_html/wp-include in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php on line 1772
+
+2022-05-02T07:17:30+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Integrations\Watchers\Indexable_Static_Home_Page_Watcher' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php:228
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\In...')
+#1 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_integrations('')
+#2 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mrwyunkahosting/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home/mrwyunkahosting/public_html/wp-settings.php(587): do_action('init')
+#5 /home/mrwyunkahosting/public_html/wp-config.php(1324): require_once('/home/mrwyunkah...')
+#6 /home/mrwyunkahosting/public_html/wp-load.php(50): require_once('/home/mrwyunkah...')
+#7 /home/mrwyunkahosting/public_html/wp-blog-header.php(13): require_once('/home/mrw in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php on line 228
+
+2022-05-02T07:17:30+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Integrations\Watchers\Indexable_Home_Page_Watcher' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php:228
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\In...')
+#1 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_integrations('')
+#2 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mrwyunkahosting/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home/mrwyunkahosting/public_html/wp-settings.php(587): do_action('init')
+#5 /home/mrwyunkahosting/public_html/wp-config.php(1324): require_once('/home/mrwyunkah...')
+#6 /home/mrwyunkahosting/public_html/wp-load.php(50): require_once('/home/mrwyunkah...')
+#7 /home/mrwyunkahosting/public_html/wp-blog-header.php(13): require_once('/home/mrwyunkah. in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php on line 228
+
+2022-05-02T07:17:30+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Integrations\Watchers\Indexable_Post_Meta_Watcher' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php:228
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\In...')
+#1 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_integrations('')
+#2 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mrwyunkahosting/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home/mrwyunkahosting/public_html/wp-settings.php(587): do_action('init')
+#5 /home/mrwyunkahosting/public_html/wp-config.php(1324): require_once('/home/mrwyunkah...')
+#6 /home/mrwyunkahosting/public_html/wp-load.php(50): require_once('/home/mrwyunkah...')
+#7 /home/mrwyunkahosting/public_html/wp-blog-header.php(13): require_once('/home/mrwyunkah. in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php on line 228
+
+2022-05-02T07:17:47+00:00 CRITICAL Uncaught Error: Class 'Yoast\WP\SEO\Premium\Routes\Workouts_Route' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php:228
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php(212): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\Pr...')
+#1 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_routes(Object(WP_REST_Server))
+#2 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mrwyunkahosting/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home/mrwyunkahosting/public_html/wp-includes/rest-api.php(553): do_action('rest_api_init', Object(WP_REST_Server))
+#5 /home/mrwyunkahosting/public_html/wp-includes/rest-api.php(379): rest_get_server()
+#6 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#7 /home/mrwyunkahosting/public_html/wp-includes/c in /home/mrwyunkahosting/public_html/wp-content/plugins/wordpress-seo/src/loader.php on line 228
+
+2022-05-02T07:57:52+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-utils.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-includes/template.php on line 770
+
+2022-05-02T07:57:52+00:00 CRITICAL require_once(): Failed opening required '/home/mrwyunkahosting/public_html/wp-content/themes/themify-shoppe/themify/themify-utils.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mrwyunkahosting/public_html/wp-includes/template.php on line 770
+
+2022-05-02T07:57:52+00:00 CRITICAL Uncaught Error: Class 'MailPoetVendor\Carbon\CarbonImmutable' not found in /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Subscribers/SubscribersRepository.php:326
+Stack trace:
+#0 /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Statistics/Track/SubscriberActivityTracker.php(98): MailPoet\Subscribers\SubscribersRepository->maybeUpdateLastEngagement(Object(MailPoet\Entities\SubscriberEntity))
+#1 /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Statistics/Track/SubscriberActivityTracker.php(85): MailPoet\Statistics\Track\SubscriberActivityTracker->processTracking(Object(MailPoet\Entities\SubscriberEntity))
+#2 /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Config/Initializer.php(283): MailPoet\Statistics\Track\SubscriberActivityTracker->trackActivity()
+#3 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(307): MailPoet\Config\Initializer->initialize('')
+#4 /home/mrwyunkahosting/public_html/wp-includes/class-wp-hook.php(331): WP in /home/mrwyunkahosting/public_html/wp-content/plugins/mailpoet/lib/Subscribers/SubscribersRepository.php on line 326
+

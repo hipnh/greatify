@@ -1,0 +1,14 @@
+body.tb_hide_title .h-navigation-padding{
+	position:absolute;
+	clip:rect(1px, 1px, 1px, 1px);
+}
+body.tb_fullwidth .h-section-global-spacing > .h-section-boxed-container{
+	max-width:none;
+    width:auto;
+    margin:0;
+	padding:0;
+	float:none
+}
+body.tb_fullwidth .page-content .h-section-global-spacing{
+	padding:0
+}

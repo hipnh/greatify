@@ -1,0 +1,15 @@
+body.tb_hide_title .page-header{
+	position:absolute;
+	clip:rect(1px, 1px, 1px, 1px);
+	left:-999em
+}
+body.tb_fullwidth .aux-main .aux-container.aux-fold{
+	max-width:none;
+    width:auto;
+    margin:0;
+	padding:0;
+	float:none
+}
+body.tb_fullwidth .aux-content-top-margin .aux-primary{
+	padding:0
+}

@@ -1,0 +1,14 @@
+body.tb_hide_title .entry-header {
+	position: absolute;
+	clip: rect(1px, 1px, 1px, 1px);
+}
+body.tb_fullwidth .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide),
+body.tb_fullwidth #site-content .entry-content > .themify_builder_content {
+	max-width: var(--responsive--alignfull-width);
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+body.tb_fullwidth #site-content .post-inner{
+	padding-top:0
+}

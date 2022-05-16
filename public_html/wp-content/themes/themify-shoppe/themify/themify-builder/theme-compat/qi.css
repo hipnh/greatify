@@ -1,0 +1,11 @@
+body.tb_hide_title .qodef-page-title{
+	position:absolute;
+	clip:rect(1px, 1px, 1px, 1px);
+	left:-999em
+}
+body.tb_fullwidth #qodef-page-inner{
+	max-width:none;
+    width:auto;
+    margin:0;
+	padding:0;
+}

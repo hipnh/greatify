@@ -1,0 +1,12 @@
+body.tb_hide_title .entry-header {
+	position: absolute;
+	clip: rect(1px, 1px, 1px, 1px);
+	left:-999em
+}
+body.tb_fullwidth .page .entry-content,
+body.tb_fullwidth .page .entry-content > * {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+}

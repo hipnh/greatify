@@ -1,0 +1,16 @@
+body.tb_hide_title .entry-header {
+	position: absolute;
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+body.tb_fullwidth #main,
+body.tb_fullwidth.singular #content,
+body.tb_fullwidth.page .hentry,
+body.tb_fullwidth.singular .entry-content {
+	margin: 0;
+	width: 100%;
+    padding: 0;
+}
+body.tb_fullwidth nav#access {
+    margin-bottom: 0;
+}

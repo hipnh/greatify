@@ -1,0 +1,21 @@
+.container-wrapper #secondary,
+body.tb_hide_title .entry-header{
+	position:absolute;
+	clip:rect(1px, 1px, 1px, 1px);
+	left:-999em
+}
+body.tb_fullwidth .container-wrapper #primary,
+body.tb_fullwidth #content.container-wrapper{
+	max-width:none;
+    width:auto;
+    margin:0;
+	padding:0;
+	float:none;
+	flex:1
+}
+body.tb_fullwidth main.site-main{
+	padding:0
+}
+body.tb_fullwidth main.site-main .entry-content{
+	margin:0
+}

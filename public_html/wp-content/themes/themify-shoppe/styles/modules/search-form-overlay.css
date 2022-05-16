@@ -1,0 +1,22 @@
+#search-lightbox-wrap{
+	padding:8% 6%;
+	overflow-y:scroll;
+}
+.search-option-tab li:hover a,
+.search-option-tab li.active a{
+	box-shadow:inset 0 -3px 0 0 #dcaa2e;
+	color:#060604
+}
+/* search view all wrap */
+.view-all-button:after{
+	border-color: #f2cd8a
+}
+@media only screen and (max-device-width: 1024px){
+	.search-lightbox #searchform input{
+		font-size:16px
+	}
+	.search-lightbox #searchform .icon-search {
+		font-size:16px;
+		bottom:8px
+	}
+}
